@@ -1,0 +1,26 @@
+{
+  "name": "functions-problem-set",
+  "version": "1.0.0",
+  "description": "Functions problem set",
+  "main": "sum.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "jest": "^26.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joinpursuit/functions-problem-set.git"
+  },
+  "author": "benstone1",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joinpursuit/functions-problem-set/issues"
+  },
+  "homepage": "https://github.com/joinpursuit/functions-problem-set#readme"
+}
