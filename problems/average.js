@@ -6,8 +6,8 @@
  * @returns {number} Returns a number equal to the average of a and b
  */
 
-function average() {
-
+function average(a, b) {
+  return (a + b) / 2
 }
 
 module.exports = average;
