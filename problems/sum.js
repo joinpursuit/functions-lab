@@ -6,7 +6,7 @@
  * @returns {number} Returns a number equal to the sum of a and b
  */
 
-function sum(a,b) {
+function sum() {
 
 }
 
