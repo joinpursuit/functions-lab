@@ -6,8 +6,8 @@
  * @returns {number} A number equal to the sum of a and b
  */
 
-function sum(a, b) {
-  return a + b 
+function sum() {
+
 }
 
 module.exports = sum;

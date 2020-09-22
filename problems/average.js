@@ -6,8 +6,8 @@
  * @returns {number} - a number equal to the average of a and b
  */
 
-function average(a, b) {
-  return Math.round((a + b) / 2)
+function average() {
+
 }
 
 module.exports = average;
