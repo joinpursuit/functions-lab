@@ -24,6 +24,20 @@ By default, `npm test` runs every test file, so you will have to scroll up to se
 
 When writing your code, **DO NOT** change the name of the function, the filename, mess with the exports, or else the tests will not work.
 
+The problem files are numbered, starting with 1, and we suggest doing them in that order.
+
+## Running Single Test Files
+
+If you want to reduce the amount of output you get, you can test only a single file at a time.
+
+Simply run `npm test` and then the name of the **test file** you want to run.
+
+So to test the multiply problems, run:
+
+```bash
+npm test __tests__/multiply.test.js
+```
+
 ## Submission requirements
 
 * When finished, commit your work.

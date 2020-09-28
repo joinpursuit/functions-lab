@@ -1,4 +1,4 @@
-const average = require("./../problems/average.js")
+const { average, averageThree } = require("../problems/5.average.js")
 
 describe("Average of two values", () => {
   test("Average does not return undefined", () => {
