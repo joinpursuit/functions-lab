@@ -4,7 +4,7 @@
  * Hint: the way to get the average of a set of numbers is
  * to sum all the numbers then divide that sum by how many numbers 
  * you added
-
+ *
  * @param {number} a - The first number
  * @param {number} b - The second number
  * @returns {number} - A whole number equal to the average of a and b
