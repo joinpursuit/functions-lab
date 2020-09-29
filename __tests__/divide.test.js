@@ -11,8 +11,8 @@ describe("4. divideTwo", () => {
     expect(divideTwo(1, 2)).toBeDefined()
   })
   test("returns a number", () => {
-    expect(typeof divideTwo(5, 2)).toEqual('number')
-    expect(typeof divideTwo(55,11)).toEqual('number')
+    expect(typeof divideTwo(5, 2)).toEqual("number")
+    expect(typeof divideTwo(55, 11)).toEqual("number")
   })
   test("returns the correct answer", () => {
     expect(divideTwo(10, 6)).toBeCloseTo(1.66, 1)
@@ -42,17 +42,17 @@ describe("4. divideByZero", () => {
   })
   test("returns the correct answer", () => {
     expect(divideByZero(5)).toBe(Infinity)
-    expect(divideByZero(0)).toBe(Infinity)
+    expect(divideByZero(292)).toBe(Infinity)
   })
 })
 
 describe("4. divideByString", () => {
   test("does not return undefined", () => {
-    expect(divideByString('wat', 5)).toBeDefined()
-    expect(divideByString('ok', 2222)).toBeDefined()
+    expect(divideByString("wat", 5)).toBeDefined()
+    expect(divideByString("ok", 2222)).toBeDefined()
   })
   test("returns the correct answer", () => {
-    expect(divideByString('hello', 549)).toBeNaN()
-    expect(divideByString('another', 0)).toBeNaN()
+    expect(divideByString("hello", 549)).toBeNaN()
+    expect(divideByString("another", 0)).toBeNaN()
   })
 })
