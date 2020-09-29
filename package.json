@@ -11,13 +11,14 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "jest --runInBand"
+    "test": "jest --runInBand",
+    "bonus": "jest --runInBand bonus/bonus.test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/joinpursuit/functions-problem-set.git"
   },
-  "author": "benstone1",
+  "author": "jabyess",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/joinpursuit/functions-problem-set/issues"

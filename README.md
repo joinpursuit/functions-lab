@@ -38,6 +38,10 @@ So to test the multiply problems, run:
 npm test __tests__/multiply.test.js
 ```
 
+## Bonus Questions
+
+Bonus questions are in the `/bonus` folder. To run the tests you can simply do `npm run bonus`
+
 ## Submission requirements
 
 * When finished, commit your work.
