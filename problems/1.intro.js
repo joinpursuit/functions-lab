@@ -28,7 +28,8 @@ function returnHelloWorld() {
 }
 
 /**
- * Returns the string "hello ${name}"
+ * Returns the string "Hello ${name}!"
+ * Hint: note the capitalization and !
  * 
  * @param {string} name - the name to added to the return string
  * @returns {string} A greeting in the form of "Hello ${name}!"
