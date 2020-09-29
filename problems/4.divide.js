@@ -25,7 +25,7 @@ function divideTwoRound() {
  * Divides a number by zero
  * 
  * @param {number} n - Any number
- * @returns {number} - Equal to Infinity
+ * @returns {Infinity} - Equal to Infinity
 */
 function divideByZero() {
 
