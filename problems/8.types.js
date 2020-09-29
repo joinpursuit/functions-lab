@@ -13,8 +13,8 @@
 /**
  * Verifies that all the parameters passed in are numbers
  * 
- * @param {number} a - the first number parameter
- * @param {number} b - the second number parameter
+ * @param {number} a - the first number 
+ * @param {number} b - the second number
  * @returns {boolean} - if a and b are both number types, return true
  */
 function bothNumbers() {
@@ -29,7 +29,7 @@ function bothNumbers() {
  * @returns {boolean} - return true if either a or b are a number
  * 
  */
-function anyNumber() {
+function eitherNumber() {
 
 }
 
@@ -57,6 +57,7 @@ function numbersNotEqual() {
 
 /**
  * Checks to see if both numbers are even
+ * Hint: look up the modulo operator (%)
  * 
  * @param {number} a - The first number to test
  * @param {number} b - The second number to test
@@ -74,7 +75,7 @@ function bothEven() {
  * @returns {boolean} - If a and b are both odd numbers, return true
  */
 function bothOdd() {
-
+  
 }
 
 /**
@@ -90,7 +91,7 @@ function eitherEven() {
 
 module.exports = {
   bothNumbers,
-  anyNumber,
+  eitherNumber,
   numbersEqual,
   numbersNotEqual,
   bothEven,
