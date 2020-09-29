@@ -5,7 +5,7 @@
  * @returns {number} - Equal to n multiplied by 2
  */
 function double() {
-  
+
 }
 
 /**
@@ -26,7 +26,7 @@ function square() {
  * @returns {number} - The result of a times b
  */
 function multiplyTwo() {
-  
+
 }
 
 /**
