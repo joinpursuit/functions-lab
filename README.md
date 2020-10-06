@@ -2,7 +2,7 @@
 
 Practice writing code to make tests pass!
 
-## Setup
+## Getting Started
 
 * Fork this repo
 * Clone the forked repository
