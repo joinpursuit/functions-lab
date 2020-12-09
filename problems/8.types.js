@@ -17,10 +17,11 @@
  * @param {number} b - the second number
  * @returns {boolean} - if a and b are both number types, return true
  */
-function bothNumbers() {
-
+function bothNumbers(a ,b) {
+  a!==b
+ return true
 }
-
+bothNumbers()
 /**
  * Checks to see if either parameter is a number
  * 
