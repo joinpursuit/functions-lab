@@ -24,8 +24,8 @@ function diceRoll(randomNum) {
  * @param {number} n - A number that serves as the upper limit of random
  * @returns {number} - A random number betweeen 0 and n
  */
-function randRange() {
-
+function randRange(n) {
+  return Math.round(Math.random(n))
 }
 
 
@@ -36,8 +36,8 @@ function randRange() {
  * 
  * @returns {number} - the number 4. don't overthink it.
  */
-function totallyFairDiceRoll() {
-
+function totallyFairDiceRoll(number) {
+  return Number(4)
 }
 
 module.exports = {
