@@ -26,8 +26,9 @@ helloName()
  * @returns {string} - the string "hello world"
  */
 function returnHelloWorld() {
-
+  return "hello world"
 }
+returnHelloWorld()
 
 /**
  * Returns the string "Hello ${name}!"
