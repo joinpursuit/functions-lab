@@ -9,8 +9,8 @@
  * @param {number} b - The second number
  * @returns {number} - A whole number equal to the average of a and b
  */
-function average() {
-
+function average(numA,numB) {
+  return (numA + numB) /2
 }
 
 /**
@@ -21,8 +21,8 @@ function average() {
  * @param {number} c - The third number
  * @returns {number} - A whole number equal to the average of a and b and c
  */
-function averageThree() {
-
+function averageThree(numA, numB,numC) {
+  return (numA +numB+numC)/3
 }
 
 
