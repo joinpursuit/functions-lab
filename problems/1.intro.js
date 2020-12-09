@@ -4,8 +4,9 @@
  * @returns undefined
  */
 function helloWorld() {
-
+  console.log("hello world")
 }
+helloWorld()
 
 
 /**
@@ -15,7 +16,7 @@ function helloWorld() {
  * @returns undefined
  */
 function helloName() {
-
+  
 }
 
 /**
