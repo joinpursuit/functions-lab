@@ -26,7 +26,6 @@ function helloName(name) {
 function returnHelloWorld() {
   return "hello world"
 }
-
 /**
  * Returns the string "Hello ${name}!"
  * Hint: note the capitalization and !
