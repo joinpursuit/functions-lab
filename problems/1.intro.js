@@ -15,9 +15,10 @@ helloWorld()
  * @param {string} name - the name to be added to the console log 
  * @returns undefined
  */
-function helloName() {
-  
+function helloName(name) {
+  console.log(`hello ${name}`)
 }
+helloName()
 
 /**
  * Returns the string "hello world"
