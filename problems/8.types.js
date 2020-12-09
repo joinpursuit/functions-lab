@@ -17,9 +17,13 @@
  * @param {number} b - the second number
  * @returns {boolean} - if a and b are both number types, return true
  */
-function bothNumbers() {
+function bothNumbers(a,b) {
+  return a == typeof(Number) && b == typeof(Number)
 
 }
+
+bothNumbers(6,7)
+
 
 /**
  * Checks to see if either parameter is a number
