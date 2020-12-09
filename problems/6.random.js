@@ -5,8 +5,8 @@
  * @returns {number} - a random number between 0 and 1
  * 
  */
-function rand() {
-
+function rand(number) {
+  return Math.random(number)
 }
 
 /** 
@@ -14,8 +14,8 @@ function rand() {
  * 
  * @returns {number} - A random number greater than 1 and less than 6
  */
-function diceRoll() {
-
+function diceRoll(number) {
+  return Math.floor((Math.random()* 6 +1))
 }
 
 /**
