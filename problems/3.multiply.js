@@ -5,9 +5,11 @@
  * @returns {number} - Equal to n multiplied by 2
  */
 function double() {
-
+let b = 2
+let n = 6 * 2
+return n
 }
-
+console.log(double())
 /**
  * Squares whatever number is passed in
  * 
@@ -15,9 +17,11 @@ function double() {
  * @returns {number} - Equal to n times itself
  */
 function square() {
-
+let a = 2 
+let n = 9 ** a
+return n
 }
-
+console.log(square())
 /**
  * Multiplies two numbers that are passed in
  * 
@@ -26,9 +30,11 @@ function square() {
  * @returns {number} - The result of a times b
  */
 function multiplyTwo() {
-
+let a = 10
+let b = 5
+return a * b
 }
-
+console.log(multiplyTwo())
 /**
  * Multiplies three numbers that are passed in
  * 
@@ -38,8 +44,12 @@ function multiplyTwo() {
  * @returns {number} - The result of a times b times c
  */
 function multiplyThree() {
-  
+let a = 8
+let b = 4
+let c = 2
+return a * b *c
 }
+console.log(multiplyThree())
 
 /**
  * Multiplies a number and a string together
@@ -49,8 +59,12 @@ function multiplyThree() {
  * @returns {NaN} - Should return NaN (not a number) since this is an invalid operation in Javascript
  */
 function multiplyString() {
-
+let str = 'Jaedin'
+n = 5
+return str * n
 }
+console.log(multiplyString())
+
 
 module.exports = {
   double,
