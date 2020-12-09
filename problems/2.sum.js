@@ -30,9 +30,10 @@ sumThree()
  * @param {number} b - the second number which is subtracted from the first
  * @returns {number} - Equal to a minus b
  */
-function subtract() {
-
+function subtract(a, b) {
+  return a - b
 }
+subtract()
 
 
 module.exports = {
