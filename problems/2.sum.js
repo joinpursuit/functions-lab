@@ -18,9 +18,10 @@ sum()
  * @param {number} c - The third number to add.
  * @returns {number} - Equal to the sum of a, b and c
  */
-function sumThree() {
-
+function sumThree(a, b, c) {
+  return a + b + c
 }
+sumThree()
 
 /**
  * Subtracts two numbers
