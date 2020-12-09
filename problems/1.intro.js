@@ -37,9 +37,10 @@ returnHelloWorld()
  * @param {string} name - the name to added to the return string
  * @returns {string} A greeting in the form of "Hello ${name}!"
  */
-function returnHelloName() {
-
+function returnHelloName(name) {
+  return `Hello ${name}!`
 }
+returnHelloName()
 
 module.exports = {
   helloWorld,
