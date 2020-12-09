@@ -1,4 +1,3 @@
-
 /**
  * Returns whatever number is passed in, or 5 if none is passed in
  * 
@@ -6,6 +5,8 @@
  * @returns {number} Equal to either 5 or n
  */
 function defaultNum() {
+    let n = 5
+    return (5, n)
 
 }
 
@@ -20,6 +21,6 @@ function defaultStr() {
 }
 
 module.exports = {
-  defaultNum,
-  defaultStr,
+    defaultNum,
+    defaultStr,
 }
