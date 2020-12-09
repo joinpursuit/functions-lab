@@ -17,8 +17,10 @@
  * @param {number} b - the second number
  * @returns {boolean} - if a and b are both number types, return true
  */
-function bothNumbers() {
-
+function bothNumbers(a,b) {
+  let typeofa = typeof a
+  let typeofb = typeof b
+  return (typeofa === typeofb)
 }
 
 /**
@@ -30,7 +32,9 @@ function bothNumbers() {
  * 
  */
 function eitherNumber() {
-
+  let typeofa = typeof a
+  let typeofb = typeof b
+  return (typeofa || typeofb)
 }
 
 /**
