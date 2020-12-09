@@ -41,9 +41,10 @@ divideByZero()
  * @returns {NaN} - Not a Number, since this is an invalid operation in JavaScript
  */
 
-function divideByString() {
-
+function divideByString(str, n) {
+  return n / str
 }
+divideByString()
 
 
 module.exports = {
