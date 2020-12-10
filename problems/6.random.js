@@ -6,8 +6,11 @@
  * 
  */
 function rand() {
+return Math.random()
 
 }
+rand()
+
 
 /** 
  * Returns a rounded, random number between 1 and 6, like rolling a die
@@ -15,6 +18,11 @@ function rand() {
  * @returns {number} - A random number greater than 1 and less than 6
  */
 function diceRoll() {
+
+  
+}
+
+
 
 }
 
@@ -29,7 +37,6 @@ function randRange() {
 }
 
 
-
 /**
  * Returns four
  * https://xkcd.com/221/
@@ -37,8 +44,10 @@ function randRange() {
  * @returns {number} - the number 4. don't overthink it.
  */
 function totallyFairDiceRoll() {
-
+return 4
 }
+
+totallyFairDiceRoll()
 
 module.exports = {
   rand,
