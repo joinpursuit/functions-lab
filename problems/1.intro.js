@@ -16,12 +16,11 @@ helloWorld()
  * @returns undefined
  */
 
-function helloName() {
-  let name = 'Myra'
-console.log('hello ' + name)
+function helloName(name) {
+  let personName = `${name}`
+console.log('hello ' + personName)
 }
-
-helloName()
+ helloName()
 /**
  * Returns the string "hello world"
  * 

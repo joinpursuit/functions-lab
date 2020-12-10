@@ -4,10 +4,8 @@
  * @param {number} n - a number to be doubled
  * @returns {number} - Equal to n multiplied by 2
  */
-function double() {
-let b = 2
-let n = 5 * b
-return n
+function double(n) {
+return n * 2
 }
 
 console.log(double())
@@ -18,10 +16,8 @@ console.log(double())
  * @param {number} n - a number to be squared
  * @returns {number} - Equal to n times itself
  */
-function square() {
-let a = 2
-let n = 9 ** a
-return n
+function square(n) {
+return n ** 2
 }
 
 console.log(square())
@@ -33,9 +29,7 @@ console.log(square())
  * @param {number} b - The second number to multiply
  * @returns {number} - The result of a times b
  */
-function multiplyTwo() {
-let a = 10
-let b = 5
+function multiplyTwo(a , b) {
 return a * b
 }
 
@@ -49,10 +43,7 @@ console.log(multiplyTwo())
  * @param {number} c - The third number to multiply
  * @returns {number} - The result of a times b times c
  */
-function multiplyThree() {
-  let a = 8
-  let b = 4
-  let c = 2
+function multiplyThree(a, b, c) {
   return a * b * c  
 }
 
@@ -65,9 +56,7 @@ console.log(multiplyThree())
  * @param {number} n - A number of any value
  * @returns {NaN} - Should return NaN (not a number) since this is an invalid operation in Javascript
  */
-function multiplyString() {
-let str = 'Jaedin'
-let n = 5
+function multiplyString(str, n) {
 return str * n
 }
 
