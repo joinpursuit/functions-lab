@@ -6,7 +6,11 @@
  * @returns {number} - the sum of all the arguments passed in
  */
 function sumAll() {
-
+  var s = 0;
+    for (var i=0; i < arguments.length; i++) {
+        s += arguments[i];
+    }
+    return s;
 }
 
 /**
