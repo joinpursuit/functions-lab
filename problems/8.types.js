@@ -17,12 +17,11 @@
  * @param {number} b - the second number
  * @returns {boolean} - if a and b are both number types, return true
  */
-function bothNumbers(a,b) {
-  return a == typeof(Number) && b == typeof(Number)
+
+function bothNumbers(a = 5 ,b = 6 ) {
+  return Number.isFinite(a,b)
 
 }
-
-bothNumbers(6,7)
 
 
 /**
@@ -33,7 +32,8 @@ bothNumbers(6,7)
  * @returns {boolean} - return true if either a or b are a number
  * 
  */
-function eitherNumber() {
+function eitherNumber(a = 5, b = 6) {
+  return Number.isFinite(a) || Number.isFinite(b)
 
 }
 
@@ -44,7 +44,8 @@ function eitherNumber() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are equal then return true, otherwise return false
  */
-function numbersEqual() {
+function numbersEqual(a =5, b = 6) {
+  return a == b 
 
 }
 
@@ -55,7 +56,8 @@ function numbersEqual() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are not equal then return true, otherwise return false
  */
-function numbersNotEqual() {
+function numbersNotEqual(a = 5, b = 6) {
+  return a !== b 
 
 }
 
@@ -67,8 +69,8 @@ function numbersNotEqual() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are both even numbers, return true
  */
-function bothEven() {
-
+function bothEven(a = 5 , b = 6) {
+  return a % 2 == 0 && b % 2 == 0 
 }
 
 /**
@@ -78,8 +80,8 @@ function bothEven() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are both odd numbers, return true
  */
-function bothOdd() {
-  
+function bothOdd(a = 5 , b = 6) {
+  return a % 2 !== 0 && b % 2 !== 0 
 }
 
 /**
@@ -89,7 +91,9 @@ function bothOdd() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If either a or b is even, return true
  */
-function eitherEven() {
+function eitherEven(a = 5 , b = 6) {
+  return  a % 2 == 0 || b % 2 == 0 
+
 
 }
 
