@@ -18,11 +18,11 @@ rand()
  * @returns {number} - A random number greater than 1 and less than 6
  */
 function diceRoll() {
-  return Math.min
-  return Math.max
+  return Math.round(Math.random() * (6-1)) + 1
+  
   }
-
 diceRoll()
+
 /**
  * Returns a rounded, random number between 0 and n
  * 
@@ -30,9 +30,9 @@ diceRoll()
  * @returns {number} - A random number betweeen 0 and n
  */
 function randRange(n) {
-return 
-}
+return Math.round(Math.random(0,n))
 
+}
 
 /**
  * Returns four
