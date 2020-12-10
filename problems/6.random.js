@@ -24,8 +24,10 @@ return Math.max(6)
  * @param {number} n - A number that serves as the upper limit of random
  * @returns {number} - A random number betweeen 0 and n
  */
-function randRange() {
-
+Math.random() 
+function randRange(n) {
+  Math.max(n)
+  Math.min(0)
 }
 
 

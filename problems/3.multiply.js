@@ -25,7 +25,7 @@ return n**2
  * @param {number} b - The second number to multiply
  * @returns {number} - The result of a times b
  */
-function multiplyTwo(a,b) {
+function multiplyTwo(a, b) {
 return a * b
 }
 
@@ -37,7 +37,7 @@ return a * b
  * @param {number} c - The third number to multiply
  * @returns {number} - The result of a times b times c
  */
-function multiplyThree(a,b,c) {
+function multiplyThree(a, b, c) {
   return a * b * c
 }
 

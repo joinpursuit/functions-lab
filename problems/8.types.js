@@ -30,7 +30,7 @@ return typeof a && typeof b
  * 
  */
 function eitherNumber(a,b) {
-return typeof a ||typeof b
+return typeof a || typeof b
 }
 
 /**
@@ -64,7 +64,7 @@ return  a !== b
  * @returns {boolean} - If a and b are both even numbers, return true
  */
 function bothEven() {
-return a % 2 ===0 && b % 2 ===0
+return a % 2 === 0 && b % 2 === 0
 }
 
 /**
@@ -75,7 +75,7 @@ return a % 2 ===0 && b % 2 ===0
  * @returns {boolean} - If a and b are both odd numbers, return true
  */
 function bothOdd(a,b) {
-  return a % 2 !===0 && b % 2 !===0
+  return a % 2 !== 0 && b % 2 !== 0
 }
 
 /**
@@ -86,7 +86,7 @@ function bothOdd(a,b) {
  * @returns {boolean} - If either a or b is even, return true
  */
 function eitherEven(a,b) {
-return a % 2 === 0 || b % 2 ===0
+return a % 2 === 0 || b % 2 === 0
 }
 
 module.exports = {

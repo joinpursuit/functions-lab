@@ -6,8 +6,17 @@
  * @returns {number} - the sum of all the arguments passed in
  */
 function sumAll() {
+  console.log(arguments)
+  let sum = 0
 
+  for(let i = 0; i < arguments.length; i++) {
+    sum += arguments[i]
+  }
+
+  return sum 
 }
+console.log(sumAll(10,20,30,40))
+
 
 /**
  * Average all the arguments passed in, no matter how many there are
