@@ -3,9 +3,8 @@
  * 
  * @returns undefined
  */
-function helloWorld() {
-
-  console.log('hello world')
+ function helloWorld() {
+ console.log('hello world')
 }
 
 console.log(helloWorld())
@@ -16,28 +15,22 @@ console.log(helloWorld())
  * @param {string} name - the name to be added to the console log 
  * @returns undefined
  */
-function helloName(name) {
-
-//  let name = 'james'
-// 'hello $' + name
-
+function helloName(name = "$brandy") {
+  console.log("hello " + name)
 }
-console.log(helloName('james'))
+console.log(helloName())
 
 /**
  * Returns the string "hello world"
  * 
  * @returns {string} - the string "hello world"
  */
-function returnHelloWorld() {
+function returnHelloWorld(string = "hello world") {
      
-  // return 'hello world.'
-  
-     console.log('hello world')
+  return string
+  }
 
-}
-
-// returnHelloWorld()
+returnHelloWorld()
 
 /**
  * Returns the string "Hello ${name}!"
@@ -46,10 +39,8 @@ function returnHelloWorld() {
  * @param {string} name - the name to added to the return string
  * @returns {string} A greeting in the form of "Hello ${name}!"
  */
-function returnHelloName(name) {
-  
-
-  console.log('Hello $' + name + '!')
+function returnHelloName(name = "$james") {
+  return "Hello " + name + "!"
 }
 
  returnHelloName("james")

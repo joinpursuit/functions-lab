@@ -20,7 +20,7 @@ console.log(rand())
  */
 function diceRoll(n) {
 
-  return Math.round(Math.random() * 5 )
+  return Math.round(Math.random() * 6)
 }
 
 console.log(diceRoll())
@@ -31,7 +31,8 @@ console.log(diceRoll())
  * @param {number} n - A number that serves as the upper limit of random
  * @returns {number} - A random number betweeen 0 and n
  */
-function randRange() {
+function randRange( n = 5) {
+  return Math.round(Math.random() * n)
 
 }
 

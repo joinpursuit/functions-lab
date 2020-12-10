@@ -11,7 +11,7 @@ function defaultNum( n = 5 ) {
 
 }
 
-console.log(defaultNum(7))
+console.log(defaultNum())
 
 /**
  * Returns whatever string is passed in, or "hello world" if none is passed in
