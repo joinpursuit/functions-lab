@@ -4,9 +4,10 @@
  * @returns undefined
  */
 function helloWorld() {
-
+  console.log("hello world")
 }
 
+helloWorld()
 
 /**
  * Console logs the string "hello ${name}"
@@ -14,9 +15,11 @@ function helloWorld() {
  * @param {string} name - the name to be added to the console log 
  * @returns undefined
  */
-function helloName() {
-
+function helloName(name) {
+  console.log("hello " + name)
 }
+
+helloName("Jamee")
 
 /**
  * Returns the string "hello world"
@@ -24,8 +27,10 @@ function helloName() {
  * @returns {string} - the string "hello world"
  */
 function returnHelloWorld() {
-
+  return "hello world"
 }
+
+returnHelloWorld()
 
 /**
  * Returns the string "Hello ${name}!"
@@ -34,9 +39,11 @@ function returnHelloWorld() {
  * @param {string} name - the name to added to the return string
  * @returns {string} A greeting in the form of "Hello ${name}!"
  */
-function returnHelloName() {
-
+function returnHelloName(name) {
+  return "Hello " + name + "!"
 }
+
+returnHelloName("Hello Ivan")
 
 module.exports = {
   helloWorld,
