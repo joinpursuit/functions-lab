@@ -6,8 +6,12 @@
  * @returns {number} - Equal to a divided by b
  */
 function divideTwo() {
-
+let a = 4
+let b = 2
+return a / b
 }
+
+console.log(divideTwo())
 
 /**
  * Divides two numbers and returns the rounded result
@@ -18,8 +22,12 @@ function divideTwo() {
  * @returns {number} - A whole number equal to a divided by b
  */
 function divideTwoRound() {
-
+let a = 10
+let b = 4
+return Math.round(a/b)
 }
+
+console.log(divideTwoRound())
 
 /** 
  * Divides a number by zero
@@ -28,9 +36,11 @@ function divideTwoRound() {
  * @returns {Infinity} - Equal to Infinity
 */
 function divideByZero() {
-
+let n = 1
+return n / 0 
 }
 
+console.log(divideByZero())
 /**
  * Divides a number by a string
  * 
@@ -40,8 +50,12 @@ function divideByZero() {
  */
 
 function divideByString() {
-
+  let str = "Hailey"
+  let n = 3
+  return str / n
 }
+
+console.log(divideByString())
 
 
 module.exports = {

@@ -6,8 +6,12 @@
  * @returns {number} - Equal to the sum of a and b
  */
 function sum() {
-
+  let a = 2
+  let b = 3
+  return a + b
 }
+
+console.log(sum())
 
 /**
  * Takes in three values and returns their sum
@@ -18,8 +22,13 @@ function sum() {
  * @returns {number} - Equal to the sum of a, b and c
  */
 function sumThree() {
-
+  let a = 2
+  let b = 3
+  let c = 5
+  return a + b + c
 }
+
+console.log(sumThree())
 
 /**
  * Subtracts two numbers
@@ -29,8 +38,12 @@ function sumThree() {
  * @returns {number} - Equal to a minus b
  */
 function subtract() {
-
+let firstNumber = 10 
+let secondNumber = 9
+return firstNumber - secondNumber
 }
+
+console.log(subtract())
 
 
 module.exports = {

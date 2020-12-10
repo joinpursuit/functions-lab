@@ -6,8 +6,10 @@
  * 
  */
 function rand() {
-
+return Math.random()
 }
+
+rand()
 
 /** 
  * Returns a rounded, random number between 1 and 6, like rolling a die
