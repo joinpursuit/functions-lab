@@ -6,8 +6,9 @@
  * 
  */
 function rand() {
-
+   return Math.random()
 }
+rand()
 
 /** 
  * Returns a rounded, random number between 1 and 6, like rolling a die
@@ -15,17 +16,17 @@ function rand() {
  * @returns {number} - A random number greater than 1 and less than 6
  */
 function diceRoll() {
-
+   return Math.random < 6
 }
-
+diceRoll()
 /**
  * Returns a rounded, random number between 0 and n
  * 
  * @param {number} n - A number that serves as the upper limit of random
  * @returns {number} - A random number betweeen 0 and n
  */
-function randRange() {
-
+function randRange(n) {
+   return Math.random 
 }
 
 
