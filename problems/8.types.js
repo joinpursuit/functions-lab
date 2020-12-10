@@ -30,7 +30,7 @@ function bothNumbers() {
  * 
  */
 function eitherNumber() {
-
+  return (typeof a === 'number' || a === 'number')
 }
 
 /**
