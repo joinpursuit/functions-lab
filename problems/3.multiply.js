@@ -57,8 +57,10 @@ console.log(multiplyThree(2, 3, 4))
  * @returns {NaN} - Should return NaN (not a number) since this is an invalid operation in Javascript
  */
 function multiplyString(str, n) {
-  
+  return str * n;
 }
+
+console.log(multiplyString('me', 3))
 
 module.exports = {
   double,
