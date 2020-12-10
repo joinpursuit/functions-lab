@@ -19,7 +19,7 @@ describe("8. bothNumbers", () => {
   })
 })
 
-describe("8. anyNumber", () => {
+describe("8. eitherNumber", () => {
   test("does not return undefined", () => {
     expect(eitherNumber(19, 12)).toBeDefined()
     expect(eitherNumber(22, 3)).toBeDefined()
