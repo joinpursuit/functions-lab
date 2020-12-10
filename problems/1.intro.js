@@ -3,10 +3,12 @@
  * 
  * @returns undefined
  */
-function helloWorld() {
-
+function helloWorld() {  
+  console.log("hello world") 
 }
 
+helloWorld()
+  
 
 /**
  * Console logs the string "hello ${name}"
@@ -14,19 +16,20 @@ function helloWorld() {
  * @param {string} name - the name to be added to the console log 
  * @returns undefined
  */
-function helloName() {
-
-}
+function helloName(name) {
+  console.log("hello " + name)
+}  
+ helloName("David")
 
 /**
  * Returns the string "hello world"
  * 
  * @returns {string} - the string "hello world"
  */
-function returnHelloWorld() {
-
+function returnHelloWorld(){
+  return "hello world" 
 }
-
+console.log(returnHelloWorld())
 /**
  * Returns the string "Hello ${name}!"
  * Hint: note the capitalization and !
@@ -34,9 +37,14 @@ function returnHelloWorld() {
  * @param {string} name - the name to added to the return string
  * @returns {string} A greeting in the form of "Hello ${name}!"
  */
-function returnHelloName() {
+let greet = "Hello"
+ function returnHelloName(David) {
+  return greet + "" + David 
+  }
 
-}
+  let newGreet = returnHelloName(" David!")
+
+  console.log(newGreet)
 
 module.exports = {
   helloWorld,
