@@ -9,6 +9,8 @@ function sumAll() {
 
 }
 
+
+
 /**
  * Average all the arguments passed in, no matter how many there are
  * Hint: look up the `arguments` keyword. This will require you to loop.
@@ -29,8 +31,8 @@ function averageAll() {
  * @param {number} n - the number to be flipped.
  * @returns {number} - The opposite value of n
  */
-function flipSign() {
-
+function flipSign(n) {
+return -n
 }
 
 module.exports = {

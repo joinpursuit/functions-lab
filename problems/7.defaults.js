@@ -6,7 +6,7 @@
  * @returns {number} Equal to either 5 or n
  */
 function defaultNum(n) {
-return 5 || Math.random
+return n || 5
 }
 
 /**
@@ -15,8 +15,8 @@ return 5 || Math.random
  * @param {string} ["hello world"] str - The string to be returned
  * @returns {string} - Equal to str, or "hello world"
  */
-function defaultStr() {
-
+function defaultStr(str) {
+return str || "hello world"
 }
 
 module.exports = {
