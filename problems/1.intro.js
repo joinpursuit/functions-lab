@@ -25,7 +25,7 @@ helloName(" Jarrett")
  * @returns {string} - the string "hello world"
  */
 function returnHelloWorld(string) {
-return ("hello "  +  "World ")
+return ("hello "  +  "World")
 }
 console.log(returnHelloWorld())
 /**
@@ -36,7 +36,7 @@ console.log(returnHelloWorld())
  * @returns {string} A greeting in the form of "Hello ${name}!"
  */
 function returnHelloName(name) {
-   return "Hello" + " Jarrett!"
+   return "Hello" + " Anne!"
 }
 console.log(returnHelloName())
 

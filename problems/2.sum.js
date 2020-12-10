@@ -26,7 +26,7 @@ let b = 13
 let c = 1
   return (a + b + c) 
 }
-console.log(sumThree())
+sumThree()
 /**
  * Subtracts two numbers
  * 
@@ -40,7 +40,7 @@ let b = 10
   return a - b 
 }
 
-console.log(subtract())
+subtract()
 
 module.exports = {
   sum,

@@ -9,10 +9,10 @@
  * @param {number} b - The second number
  * @returns {number} - A whole number equal to the average of a and b
  */
-function average(a= 5, b= 19) {
-return (a+b)/2
+function average(a,b) {
+  return Math.round((a + b) /2)  
 }
-console.log(average())
+ average(5, 19)
 /**
  * Takes in three values and returns their rounded average
  * 
@@ -24,7 +24,7 @@ console.log(average())
 function averageThree(a,b,c,) {
 return Math.round((a+b+c)/3)
 }
-console.log(averageThree(5,7,9))
+averageThree(5,7,9)
 
 module.exports = {
   average,

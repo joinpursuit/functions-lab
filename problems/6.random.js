@@ -17,18 +17,18 @@ console.log(rand())
 function diceRoll() {
  return Math.round (Math.random() * (6 - 1)) 
 }
-console.log(diceRoll())
+diceRoll()
 /**
  * Returns a rounded, random number between 0 and n
  * 
  * @param {number} n - A number that serves as the upper limit of random
  * @returns {number} - A random number betweeen 0 and n
  */
-function randRange() {
-
+function randRange(n) {
+return Math.round(Math.random()* n)
 }
 
-
+randRange()
 
 /**
  * Returns four
@@ -39,7 +39,7 @@ function randRange() {
 function totallyFairDiceRoll(number) {
 return 4
 }
-console.log(totallyFairDiceRoll())
+totallyFairDiceRoll()
 
 module.exports = {
   rand,
