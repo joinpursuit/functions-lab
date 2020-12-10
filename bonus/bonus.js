@@ -5,8 +5,8 @@
  * @param {numbers} this could be any number of parameters, all number type
  * @returns {number} - the sum of all the arguments passed in
  */
-function sumAll() {
-
+function sumAll(...args) {
+  return args.reduce((sum, n) => sum + n, 0)
 }
 
 /**
@@ -16,8 +16,8 @@ function sumAll() {
  * @param {numbers} this could be any number of parameters, all number type
  * @returns {number} - A whole number the average of all the arguments passed in
  */
-function averageAll() {
-
+function averageAll(...args) {
+  return Math.round(sumAll(...args) / args.length)
 }
 
 /**
@@ -29,8 +29,8 @@ function averageAll() {
  * @param {number} n - the number to be flipped.
  * @returns {number} - The opposite value of n
  */
-function flipSign() {
-
+function flipSign(n) {
+  return -n
 }
 
 module.exports = {

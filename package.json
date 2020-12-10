@@ -9,7 +9,9 @@
   "dependencies": {
     "jest": "^26.4.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jest-cli": "^26.6.3"
+  },
   "scripts": {
     "test": "jest --runInBand",
     "bonus": "jest --runInBand bonus/bonus.test.js"
