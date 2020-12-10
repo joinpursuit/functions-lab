@@ -6,17 +6,20 @@
  * 
  */
 function rand() {
-
+return Math.random()
 }
-
+let randomNumber = rand() 
+console.log(randomNumber)
 /** 
  * Returns a rounded, random number between 1 and 6, like rolling a die
  * 
  * @returns {number} - A random number greater than 1 and less than 6
  */
 function diceRoll() {
-
+return Math.random()
 }
+let randomRound = diceRoll()
+console.log(randomRound)
 
 /**
  * Returns a rounded, random number between 0 and n

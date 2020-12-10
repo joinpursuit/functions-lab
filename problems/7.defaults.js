@@ -18,7 +18,7 @@ function defaultNum() {
 function defaultStr() {
 
 }
-
+d
 module.exports = {
   defaultNum,
   defaultStr,

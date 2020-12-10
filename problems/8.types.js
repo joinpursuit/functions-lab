@@ -20,7 +20,7 @@
 function bothNumbers() {
 
 }
-
+a
 /**
  * Checks to see if either parameter is a number
  * 
