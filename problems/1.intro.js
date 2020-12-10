@@ -16,11 +16,12 @@ helloWorld()
  * @returns undefined
  */
 function helloName(name) {
- console.log(name)
+
  console.log(`hello ${name}`)
+
 }
 
-helloName("Hola")
+helloName()
 
 /**
  * Returns the string "hello world"
@@ -40,12 +41,12 @@ returnHelloWorld()
  * @param {string} name - the name to added to the return string
  * @returns {string} A greeting in the form of "Hello ${name}!"
  */
-function returnHelloName() {
+function returnHelloName(name) {
 return `Hello ${name}!`
 
 }
 
-returnHelloName()
+returnHelloName(name)
 
 module.exports = {
   helloWorld,
