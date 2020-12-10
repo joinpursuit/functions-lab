@@ -13,7 +13,7 @@
     "jest-cli": "^26.6.3"
   },
   "scripts": {
-    "test": "jest --runInBand",
+    "test": "jest --runInBand __tests__",
     "bonus": "jest --runInBand bonus/bonus.test.js"
   },
   "repository": {
