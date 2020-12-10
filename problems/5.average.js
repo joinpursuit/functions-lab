@@ -9,9 +9,8 @@
  * @param {number} b - The second number
  * @returns {number} - A whole number equal to the average of a and b
  */
-function average(a ,b) {
-  let avg - (a + b)/2
-  return Math.round(avg)
+function average(a, b) {
+  return Math.round(( a + b) / 2)
 }
 
 /**
@@ -22,8 +21,9 @@ function average(a ,b) {
  * @param {number} c - The third number
  * @returns {number} - A whole number equal to the average of a and b and c
  */
-function averageThree(a ,b , c) {
-  return Math.round( a + b + c)/3
+function averageThree(a, b, c) {
+
+  return Math.round( (a + b + c) / 3)
 }
 
 
@@ -31,4 +31,3 @@ module.exports = {
   average,
   averageThree
 };
-ls

@@ -4,7 +4,8 @@
  * @returns undefined
  */
 function helloWorld() {
-console.log("heloo world");
+console.log("hello world")
+
 }
 
 /**
@@ -14,7 +15,7 @@ console.log("heloo world");
  * @returns undefined
  */
 function helloName(name) {
-  console.console.log("hello" +name);
+  console.log("hello " +name)
 
 }
 
@@ -33,8 +34,8 @@ function returnHelloWorld() {
  * @param {string} name - the name to added to the return string
  * @returns {string} A greeting in the form of "Hello ${name}!"
  */
-function returnHelloName() {
-  return "Hello" + name + "!"
+function returnHelloName(name) {
+  return "Hello " + name + "!"
 
 }
 

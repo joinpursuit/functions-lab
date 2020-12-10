@@ -6,6 +6,11 @@
  * @returns {number} - the sum of all the arguments passed in
  */
 function sumAll() {
+  let totalSum = 0;
+  for( let value of arguments){
+    totalSum += values;
+  }
+  return totalSum
 
 }
 
