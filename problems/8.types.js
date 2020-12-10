@@ -46,7 +46,7 @@ function numbersEqual(a, b) {
   return (a === b)
 }
 
-numbersEqual(4, 4)
+numbersEqual()
 /**
  * Checks to see if both numbers are not equal
  * 
@@ -58,7 +58,7 @@ function numbersNotEqual(a, b) {
       return (a !== b)
 }
 
-numbersNotEqual(5, 9)
+numbersNotEqual()
 /**
  * Checks to see if both numbers are even
  * Hint: look up the modulo operator (%)
@@ -68,20 +68,22 @@ numbersNotEqual(5, 9)
  * @returns {boolean} - If a and b are both even numbers, return true
  */
 function bothEven(a, b) {
-   return ()
+   return ((a % 2) == 0 ) && ((b % 2)== 0)
 }
 
+bothEven()
 /**
- * Checks to see if both numbers are odd 
+ * Checks to see if both numbers are odd  
  * 
  * @param {number} a - The first number to test
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are both odd numbers, return true
  */
-function bothOdd() {
-  
+function bothOdd(a, b) {
+  return ((a % 2) === 1) && ((b % 2) === 1)
 }
 
+bothOdd()
 /**
  * Checks to see if either number is even
  * 
@@ -89,9 +91,10 @@ function bothOdd() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If either a or b is even, return true
  */
-function eitherEven() {
-
+function eitherEven(a, b) {
+  return ((a % 2) == 0) || ((b % 2) == 0)
 }
+eitherEven()
 
 module.exports = {
   bothNumbers,

@@ -16,7 +16,7 @@ rand()
  * @returns {number} - A random number greater than 1 and less than 6
  */
 function diceRoll() {
-   return Math.random < 6
+   return Math.round(Math.random()* 6 ) - 1
 }
 diceRoll()
 /**
@@ -26,9 +26,10 @@ diceRoll()
  * @returns {number} - A random number betweeen 0 and n
  */
 function randRange(n) {
-   return Math.random 
+   return Math.round(Math.random() * n) 
 }
 
+randRange()
 
 
 /**
@@ -38,8 +39,11 @@ function randRange(n) {
  * @returns {number} - the number 4. don't overthink it.
  */
 function totallyFairDiceRoll() {
-
+    return 4
 }
+
+totallyFairDiceRoll()
+
 
 module.exports = {
   rand,
