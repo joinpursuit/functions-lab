@@ -6,7 +6,7 @@
  * @returns {number} Equal to either 5 or n
  */
 function defaultNum() {
-
+return n || 5
 }
 
 /**
