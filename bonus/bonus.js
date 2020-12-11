@@ -5,14 +5,14 @@
  * @param {numbers} this could be any number of parameters, all number type
  * @returns {number} - the sum of all the arguments passed in
  */
-function sumAll(arg) {
+function sumAll() {
   let sum = 0
-  for(let i = 0; i < arg.length; i++){
-    sum += arg[i]
+  for(let i = 0; i < arguments.length; i++){
+    sum += arguments[i]
   }
   return sum
 }
-//sumAll([1,2,3])
+sumAll([1,2,3])
 
 /**
  * Average all the arguments passed in, no matter how many there are
@@ -21,12 +21,12 @@ function sumAll(arg) {
  * @param {numbers} this could be any number of parameters, all number type
  * @returns {number} - A whole number the average of all the arguments passed in
  */
-function averageAll(arg) {
+function averageAll() {
   let sum = 0
-  for(let i = 0; i < arg.length; i++){
-    sum += arg[i]
+  for(let i = 0; i < arguments.length; i++){
+    sum += arguments[i]
   }
-  return Math.round(sum / arg.length)
+  return Math.round(sum / arguments.length)
 }
 averageAll([1,2,3])
 /**
