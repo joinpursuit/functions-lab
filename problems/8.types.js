@@ -17,8 +17,8 @@
  * @param {number} b - the second number
  * @returns {boolean} - if a and b are both number types, return true
  */
-function bothNumbers() {
-
+function bothNumbers(a, b) {
+  return a && b;
 }
 
 /**
@@ -29,8 +29,8 @@ function bothNumbers() {
  * @returns {boolean} - return true if either a or b are a number
  * 
  */
-function eitherNumber() {
-
+function eitherNumber(a, b) {
+  return a || b;
 }
 
 /**
@@ -40,8 +40,8 @@ function eitherNumber() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are equal then return true, otherwise return false
  */
-function numbersEqual() {
-
+function numbersEqual(a, b) {
+  return (a && b) === true;
 }
 
 /**
@@ -51,8 +51,8 @@ function numbersEqual() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are not equal then return true, otherwise return false
  */
-function numbersNotEqual() {
-
+function numbersNotEqual(a, b) {
+  return (a && b) !== true;
 }
 
 /**
@@ -63,8 +63,9 @@ function numbersNotEqual() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are both even numbers, return true
  */
-function bothEven() {
-
+function bothEven(a, b) {
+  return ((a % 0) && (b % 0)) === true; 
+   
 }
 
 /**
@@ -75,7 +76,7 @@ function bothEven() {
  * @returns {boolean} - If a and b are both odd numbers, return true
  */
 function bothOdd() {
-  
+  return ((a % 1) && (b % 1)) === true;
 }
 
 /**
@@ -85,8 +86,8 @@ function bothOdd() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If either a or b is even, return true
  */
-function eitherEven() {
-
+function eitherEven(a, b) {
+  return ((a % 0 === true) ||(b % 0 === true));
 }
 
 module.exports = {
