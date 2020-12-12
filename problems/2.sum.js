@@ -5,7 +5,9 @@
  * @param {number} b - The second number to add.
  * @returns {number} - Equal to the sum of a and b
  */
-function sum() {
+function sum(numA,numB) {
+  addition = numA + numB 
+  return addition; 
 
 }
 
@@ -17,7 +19,9 @@ function sum() {
  * @param {number} c - The third number to add.
  * @returns {number} - Equal to the sum of a, b and c
  */
-function sumThree() {
+function sumThree(numA,numB,numC) {
+  addition = numA + numB + numC
+  return addition;
 
 }
 
@@ -28,7 +32,9 @@ function sumThree() {
  * @param {number} b - the second number which is subtracted from the first
  * @returns {number} - Equal to a minus b
  */
-function subtract() {
+function subtract(numA,numB) {
+  Minus = numA - numB
+  return Minus;
 
 }
 
