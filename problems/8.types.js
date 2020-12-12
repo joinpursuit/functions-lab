@@ -18,8 +18,9 @@
  * @returns {boolean} - if a and b are both number types, return true
  */
 function bothNumbers(a, b) {
-  return a && b;
+  return ((typeof a === 'number') && (typeof b === 'number'));
 }
+
 
 /**
  * Checks to see if either parameter is a number
@@ -29,10 +30,10 @@ function bothNumbers(a, b) {
  * @returns {boolean} - return true if either a or b are a number
  * 
  */
-function eitherNumber(a, b) {
-  return a || b;
-}
-
+// function eitherNumber(a, b) {
+//     return ((typeof a === 'number') || (typeof b === 'number'));
+// }
+const eitherNumber = (a, b) => ((typeof a === 'number') || (typeof b === 'number'));
 /**
  * Checks to see if both numbers are equal
  * 
@@ -40,9 +41,10 @@ function eitherNumber(a, b) {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are equal then return true, otherwise return false
  */
-function numbersEqual(a, b) {
-  return (a && b) === true;
-}
+// function numbersEqual(a, b) {
+//   return (a === b);
+// }
+const numbersEqual = (a, b) => a === b;
 
 /**
  * Checks to see if both numbers are not equal
@@ -52,7 +54,7 @@ function numbersEqual(a, b) {
  * @returns {boolean} - If a and b are not equal then return true, otherwise return false
  */
 function numbersNotEqual(a, b) {
-  return (a && b) !== true;
+  return a !== b;
 }
 
 /**
