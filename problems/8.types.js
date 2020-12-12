@@ -18,7 +18,7 @@
  * @returns {boolean} - if a and b are both number types, return true
  */
 function bothNumbers(a, b ) {
-  return a && b
+  return typeof a === 'number' && typeof b ==='number'
 }
 
 /**
@@ -30,7 +30,7 @@ function bothNumbers(a, b ) {
  * 
  */
 function eitherNumber(a, b) {
-  return a || b
+  return typeof a === 'number' || typeof b === 'number'
 }
 
 /**
@@ -75,7 +75,7 @@ function bothEven(a, b) {
  * @returns {boolean} - If a and b are both odd numbers, return true
  */
 function bothOdd(a, b) {
-   return a % 2 == 1 && b % 2 == 1;
+   return a % 2 === 1 && b % 2 === 1;
   
 }
 
