@@ -78,7 +78,7 @@ function bothEven(a, b) {
  * @returns {boolean} - If a and b are both odd numbers, return true
  */
 function bothOdd(a, b) {
-  return a % b !== 0
+  return a % b === 
 }
 
 /**
@@ -89,8 +89,10 @@ function bothOdd(a, b) {
  * @returns {boolean} - If either a or b is even, return true
  */
 function eitherEven(a, b) {
-
+  return (a / 2 % 1 === 0 || b / 2 % 1 === 0) 
 }
+
+eitherEven()
 
 module.exports = {
   bothNumbers,

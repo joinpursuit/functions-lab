@@ -5,13 +5,11 @@
  * @param {number} b - The second number to add.
  * @returns {number} - Equal to the sum of a and b
  */
-function sum(numbers) {
-  let a = 5
-  let b = 4
+function sum(a, b) {
   return a + b
 }
 
-console.log(sum())
+sum()
 
 /**
  * Takes in three values and returns their sum
@@ -21,15 +19,12 @@ console.log(sum())
  * @param {number} c - The third number to add.
  * @returns {number} - Equal to the sum of a, b and c
  */
-function sumThree(numbers) {
-  let a = 4
-  let b = 3
-  let c = 3
+function sumThree(a, b, c) {
   
   return a + b + c
 }
 
-console.log(sumThree())
+sumThree()
 
 /**
  * Subtracts two numbers
@@ -38,14 +33,12 @@ console.log(sumThree())
  * @param {number} b - the second number which is subtracted from the first
  * @returns {number} - Equal to a minus b
  */
-function subtract(numbers) {
-  let a = 4
-  let b = 5
+function subtract(a, b) {
 
   return a - b
 }
 
-console.log(subtract())
+subtract()
 
 module.exports = {
   sum,

@@ -5,14 +5,12 @@
  * @param {number} b - The second number, to be divided by
  * @returns {number} - Equal to a divided by b
  */
-function divideTwo(numbers) {
-let a = 34
-let b = 4
+function divideTwo(a, b) {
 
-return a / 4
+return a / b 
 }
 
-console.log(divideTwo())
+divideTwo()
 
 /**
  * Divides two numbers and returns the rounded result
@@ -22,14 +20,12 @@ console.log(divideTwo())
  * @param {number} b - The second number, to be divided by
  * @returns {number} - A whole number equal to a divided by b
  */
-function divideTwoRound(numbers) {
-  let a = 56
-  let b = 12
+function divideTwoRound(a, b) {
 
   return Math.round((a / b))
 } 
 
-console.log(divideTwoRound())
+divideTwoRound()
 
 /** 
  * Divides a number by zero

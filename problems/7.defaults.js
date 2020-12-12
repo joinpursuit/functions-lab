@@ -17,11 +17,11 @@ console.log(defaultNum())
  * @param {string} ["hello world"] str - The string to be returned
  * @returns {string} - Equal to str, or "hello world"
  */
-function defaultStr(str) {
-    return 'hello world'
+function defaultStr(string = "hello world") {
+    return string
   }
 
-console.log(defaultStr())
+defaultStr()
 
 module.exports = {
   defaultNum,

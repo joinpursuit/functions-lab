@@ -9,11 +9,11 @@
  * @param {number} b - The second number
  * @returns {number} - A whole number equal to the average of a and b
  */
-function average(a = 50, b = 30) {
-  return (a + b) / 2
+function average(a, b) {
+  return Math.round((a + b) / 2)
 }
 
-console.log(average())
+average()
 
 /**
  * Takes in three values and returns their rounded average
