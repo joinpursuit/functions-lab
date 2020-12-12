@@ -17,8 +17,8 @@
  * @param {number} b - the second number
  * @returns {boolean} - if a and b are both number types, return true
  */
-function bothNumbers() {
-
+function bothNumbers(a,b) {
+(typeof a === typeof 4) && (typeof b === typeof 4)
 }
 
 /**
@@ -29,8 +29,8 @@ function bothNumbers() {
  * @returns {boolean} - return true if either a or b are a number
  * 
  */
-function eitherNumber() {
-
+function eitherNumber(a,b) {
+  (typeof a === typeof 4) || (typeof b === typeof 4)
 }
 
 /**
@@ -40,8 +40,8 @@ function eitherNumber() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are equal then return true, otherwise return false
  */
-function numbersEqual() {
-
+function numbersEqual(a,b) {
+return a === b 
 }
 
 /**
@@ -51,8 +51,8 @@ function numbersEqual() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are not equal then return true, otherwise return false
  */
-function numbersNotEqual() {
-
+function numbersNotEqual(a,b) {
+  return a !== b 
 }
 
 /**
