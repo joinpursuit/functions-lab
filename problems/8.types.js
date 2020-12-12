@@ -64,7 +64,7 @@ function numbersNotEqual(a, b) {
  * @returns {boolean} - If a and b are both even numbers, return true
  */
 function bothEven(a, b) {
-    return ((a % 2) = 0 && (b % 2) = 0);
+    return a % 2 === 0 && b % 2 === 0
 }
 
 /**
@@ -75,7 +75,7 @@ function bothEven(a, b) {
  * @returns {boolean} - If a and b are both odd numbers, return true
  */
 function bothOdd(a, b) {
-   return ((a % 2) = 1 && (b % 2) = 1);
+   return a % 2 === 1 && b % 2 === 1
   
 }
 
@@ -87,7 +87,7 @@ function bothOdd(a, b) {
  * @returns {boolean} - If either a or b is even, return true
  */
 function eitherEven(a, b) {
-    return ((a % 2) = 0 || (b % 2) = 0);
+    return a % 2 === 0 || b % 2 === 0
 }
 
 module.exports = {

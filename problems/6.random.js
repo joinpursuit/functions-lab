@@ -39,7 +39,6 @@ function randRange(n) {
  */
 function totallyFairDiceRoll() {
   return 4
-
 }
 
 module.exports = {
