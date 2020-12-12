@@ -6,7 +6,7 @@
  * @returns {number} - Equal to the sum of a and b
  */
 function sum(a, b) {
-return a + b;
+  return a + b;
 }
 
 /**
@@ -18,7 +18,7 @@ return a + b;
  * @returns {number} - Equal to the sum of a, b and c
  */
 function sumThree(a, b, c) {
-return a + b + c;
+  return a + b + c;
 }
 
 /**
@@ -29,7 +29,7 @@ return a + b + c;
  * @returns {number} - Equal to a minus b
  */
 function subtract(a, b) {
-return b - a;
+return a - b;
 }
 
 
