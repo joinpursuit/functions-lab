@@ -6,7 +6,15 @@
  * @returns {number} - the sum of all the arguments passed in
  */
 function sumAll() {
+  return Array.from(arguments).reduce((sum, value) => {
+    if (Array.isArray(value)) {
+      sum += getSum.apply(this, value)
+    } else {
+      sum += Number(value)
+    }
 
+    return sum
+  }, 0)
 }
 
 /**
