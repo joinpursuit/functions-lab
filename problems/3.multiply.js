@@ -48,8 +48,8 @@ function multiplyThree(a, b, c) {
  * @param {number} n - A number of any value
  * @returns {NaN} - Should return NaN (not a number) since this is an invalid operation in Javascript
  */
-function multiplyString() {
-
+function multiplyString(str, n) {
+  return str * n;
 }
 
 module.exports = {
