@@ -15,10 +15,11 @@ console.log (rand(0,1))
  * 
  * @returns {number} - A random number greater than 1 and less than 6
  */
-function diceRoll(n) {
-  return Math.round(Math.random(n,n));
+function diceRoll() {
+
+  return Math.round(Math.random() * (6-1)+1);
 }
-console.log (diceRoll(1,6))
+console.log (diceRoll())
 
 /**
  * Returns a rounded, random number between 0 and n
@@ -26,10 +27,10 @@ console.log (diceRoll(1,6))
  * @param {number} n - A number that serves as the upper limit of random
  * @returns {number} - A random number betweeen 0 and n
  */
-function randRange(min, max) {
-  return Math.round(Math.random() * (max - min) + min);
+function randRange() {
+  return Math.round(Math.random() * (100-0) + 0);
 }
-console.log (randRange(0,100))
+console.log (randRange())
 
 
 
