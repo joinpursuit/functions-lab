@@ -4,7 +4,7 @@
  * @returns undefined
  */
 function helloWorld() {
-
+  console.log("hello world ");
 }
 
 
@@ -15,7 +15,7 @@ function helloWorld() {
  * @returns undefined
  */
 function helloName() {
-
+  console.log("hello Corey ");
 }
 
 /**
@@ -24,7 +24,7 @@ function helloName() {
  * @returns {string} - the string "hello world"
  */
 function returnHelloWorld() {
-
+  return "hello world"
 }
 
 /**
@@ -35,7 +35,7 @@ function returnHelloWorld() {
  * @returns {string} A greeting in the form of "Hello ${name}!"
  */
 function returnHelloName() {
-
+  return "Hello Corey!"
 }
 
 module.exports = {

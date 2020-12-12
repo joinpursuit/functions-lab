@@ -5,10 +5,10 @@
  * @param {number} b - The second number to add.
  * @returns {number} - Equal to the sum of a and b
  */
-function sum() {
-
+function sum(a,b) {
+  return a + b; 
 }
-
+console.log(sum (3,4))
 /**
  * Takes in three values and returns their sum
 
