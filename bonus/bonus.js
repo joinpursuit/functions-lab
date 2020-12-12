@@ -5,8 +5,16 @@
  * @param {numbers} this could be any number of parameters, all number type
  * @returns {number} - the sum of all the arguments passed in
  */
-function sumAll(this) {
-  return arguments[this];
+function sumAll(numbers) {
+  let n = arguments.lenth - 1; // find how many numbers total to add 3 (5, 7,10)
+  let sum = arguments[0]; //give sum the value of the first number sum = 5
+  
+  for (n > 0 ;// loop the amount of times [2 loops -- amount of numbers -1]
+    sum = arguments[n - 1];
+     //5 + 7 = 12
+    n--) // count down to next loop 
+    numbers = sum;
+    return numbers;
 }
 
 /**
