@@ -23,8 +23,8 @@ function average(a, b) {
  * @returns {number} - A whole number equal to the average of a and b and c
  */
 function averageThree(a, b, c) {
- let sum = a + b + c;
- return Math.round(sum / 3);
+  let sum = a + b + c;
+  return Math.round(sum / 3);
 }
 
 

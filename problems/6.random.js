@@ -17,9 +17,7 @@ function rand() {
 function diceRoll() {
   let min = 1;
   let max = 6;
-  
-  return Math.floor(Math.random() *(max - min));
-
+  return Math.floor(Math.random() * (max - min));
 }
 
 /**
@@ -29,9 +27,8 @@ function diceRoll() {
  * @returns {number} - A random number betweeen 0 and n
  */
 function randRange(n) {
-  return Math.floor(Math.random() *(n));
+  return Math.floor(Math.random() * n);
 }
-
 
 
 /**
