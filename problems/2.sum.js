@@ -29,7 +29,7 @@ function sumThree(a, b, c) {
  * @returns {number} - Equal to a minus b
  */
 function subtract(a, b) {
-return a - b;
+  return a - b;
 }
 
 
