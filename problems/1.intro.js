@@ -3,10 +3,12 @@
  * 
  * @returns undefined
  */
-function helloWorld() {
-  console.log('hello world');//works
+// function helloWorld() {
+//   console.log('hello world');
+// }
+const helloWorld = () => {
+  console.log('hello world');
 }
-
 
 /**
  * Console logs the string "hello ${name}"
@@ -14,8 +16,11 @@ function helloWorld() {
  * @param {string} name - the name to be added to the console log 
  * @returns undefined
  */
-function helloName(name) {
-  console.log(`hello ${name}`);//works
+// function helloName(name) {
+//   console.log(`hello ${name}`);//works
+// }
+const helloName = name => {
+  console.log(`hello ${name}`);;
 }
 
 /**
@@ -23,8 +28,11 @@ function helloName(name) {
  * 
  * @returns {string} - the string "hello world"
  */
-function returnHelloWorld() {
-  return 'hello world';//works
+// function returnHelloWorld() {
+//   return 'hello world';
+// }
+const returnHelloWorld = () => {
+  return 'hello world';
 }
 
 /**
@@ -34,10 +42,12 @@ function returnHelloWorld() {
  * @param {string} name - the name to added to the return string
  * @returns {string} A greeting in the form of "Hello ${name}!"
  */
-function returnHelloName(name) {
+// function returnHelloName(name) {
+//   return `Hello ${name}!`;
+// }
+const returnHelloName = name => {
   return `Hello ${name}!`;
 }
-
 
 
 module.exports = {
