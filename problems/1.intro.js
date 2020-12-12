@@ -4,7 +4,7 @@
  * @returns undefined
  */
 function helloWorld() {
-
+  console.log("hello world")
 }
 
 
