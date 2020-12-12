@@ -3,7 +3,7 @@
  * 
  * @returns undefined
  */
-function helloWorld() {
+const helloWorld = () => {
 console.log("hello world")
 }
 
@@ -14,7 +14,7 @@ console.log("hello world")
  * @param {string} name - the name to be added to the console log 
  * @returns undefined
  */
-function helloName(name) {
+const helloName = (name) => {
 console.log("hello " + name);
 }
 
@@ -23,7 +23,7 @@ console.log("hello " + name);
  * 
  * @returns {string} - the string "hello world"
  */
-function returnHelloWorld() {
+const returnHelloWorld = () => {
 return "hello world"
 }
 
@@ -34,7 +34,7 @@ return "hello world"
  * @param {string} name - the name to added to the return string
  * @returns {string} A greeting in the form of "Hello ${name}!"
  */
-function returnHelloName(name) {
+const returnHelloName = (name) => {
 return "Hello " + name + "!"
 }
 
