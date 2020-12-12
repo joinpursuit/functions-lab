@@ -15,7 +15,8 @@ function double(n) {
  * @returns {number} - Equal to n times itself
  */
 function square(n) {
-  return n * n;
+  // return n * n;
+  return n**2;
 }
 
 /**

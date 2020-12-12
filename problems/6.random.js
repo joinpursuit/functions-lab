@@ -28,8 +28,6 @@ function randRange(n) {
   return Math.floor(Math.random() * n);
 }
 
-
-
 /**
  * Returns four
  * https://xkcd.com/221/
