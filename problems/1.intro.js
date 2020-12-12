@@ -35,9 +35,10 @@ function returnHelloWorld() {
  * @returns {string} A greeting in the form of "Hello ${name}!"
  */
 function returnHelloName(name) {
-  return "Hello" + (name) + "!"; 
+  return `Hello ${name}!`
 }
-console.log(returnHelloName(Yashiry))
+
+
 module.exports = {
   helloWorld,
   helloName,
