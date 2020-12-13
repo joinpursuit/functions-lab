@@ -5,17 +5,27 @@
  * @param {numbers} this could be any number of parameters, all number type
  * @returns {number} - the sum of all the arguments passed in
  */
+   
+ //find how many numbers total to add --- 3 (5, 7, 10)
+//give sum the value of the first number --- sum = 5
+//set the counter to loop amount [2 loops (plus signs needed) -- 5+7+10]
+//loop 1 //5 + 7 = 12
+//count down to next loop  --- n = n - 1
+//loop 2 //12 + 10
+//count down to next loop  --- n = n - 1
+//return sum
+
 function sumAll() {
-   // find how many numbers total to add --- 3 (5, 7,10)
-  let sum = arguments[0]; //give sum the value of the first number --- sum = 5
-  
-  for  (let counter = arguments.lenth - 1; counter < arguments.length; counter--) {// loop the amount of times [2 loops -- amount of numbers -1]
-    sum = sum + arguments[counter]; // sum =+ arguments[counter];
-     //5 + 7 = 12
-    } // count down to next loop  --- n = n - 1
+  let sum = arguments[0];  
+  for  (let counter = arguments.lenth - 1; counter < arguments.length; counter--) { 
+    sum = sum + arguments[counter]; // I think this is adding 5 + 10 first
+     //sum =+ arguments[counter];
+    } 
     //numbers = sum;
     return sum;
-}
+} 
+// I don't know why it's not working. 
+//Don't understand where the number, numbers parameters are supposed to go
 
 /**
  * Average all the arguments passed in, no matter how many there are
@@ -24,6 +34,13 @@ function sumAll() {
  * @param {numbers} this could be any number of parameters, all number type
  * @returns {number} - A whole number the average of all the arguments passed in
  */
+
+//how many numbers
+//create a loop to add all the numbers
+//need a counter  
+//divide sum by amount of numbers
+//return average
+
 function averageAll() {
 
 }
@@ -38,7 +55,7 @@ function averageAll() {
  * @returns {number} - The opposite value of n
  */
 // function flipSign(number) {
-//   return -number
+//   return -number;
 // }
 const flipSign = number => -number;
 
