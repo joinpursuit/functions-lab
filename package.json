@@ -12,7 +12,14 @@
   "devDependencies": {},
   "scripts": {
     "test": "jest --runInBand __tests__",
-    "bonus": "jest --runInBand bonus/bonus.test.js"
+    "bonus": "jest --runInBand bonus/bonus.test.js", 
+    "divide": "jest --runInBand __tests__/divide.test.js",
+    "average": "jest --runInBand __tests__/average.test.js",
+    "random": "jest --runInBand __tests__/random.test.js",
+    "defaults": "jest --runInBand __tests__/defaults.test.js",
+    "types": "jest --runInBand __tests__/types.test.js",
+    "intro": "jest --runInBand __tests__/intro.test.js"
+    
   },
   "repository": {
     "type": "git",
