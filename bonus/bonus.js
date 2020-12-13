@@ -6,8 +6,15 @@
  * @returns {number} - the sum of all the arguments passed in
  */
 function sumAll() {
-
+  let sum = 0
+  for (let i = 0; i < arguments.length; i++){
+      sum += arguments[i] 
+     // console.log(arguments[i])
+  }
+  return sum 
 }
+console.log(sumAll(1,2,3,4,5,6))
+
 
 /**
  * Average all the arguments passed in, no matter how many there are
@@ -29,8 +36,8 @@ function averageAll() {
  * @param {number} n - the number to be flipped.
  * @returns {number} - The opposite value of n
  */
-function flipSign() {
-
+function flipSign(n) {
+  return n * (-1)
 }
 
 module.exports = {
