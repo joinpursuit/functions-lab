@@ -23,10 +23,9 @@ function sumAll(){
 function averageAll() {
   let number = 0;
   for (let i=0; i < arguments.length; i++) {
-    numberLength = arguments.length;
-    number = number + arguments[i];
-    average = number/numberLength;
+    number += arguments[i];
   }
+  let average = number/arguments.length;
   return Math.round(average);
 }
 
@@ -40,7 +39,8 @@ function averageAll() {
  * @returns {number} - The opposite value of n
  */
 function flipSign(n) {
-  return n = n * -1;
+  // return n * -1;
+  return -n;
 }
 
 module.exports = {

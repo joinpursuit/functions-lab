@@ -20,7 +20,7 @@ const helloWorld = () => {
 //   console.log(`hello ${name}`);//works
 // }
 const helloName = name => {
-  console.log(`hello ${name}`);;
+  console.log(`hello ${name}`);
 }
 
 /**

@@ -4,9 +4,10 @@
  * @param {number} n - a number to be doubled
  * @returns {number} - Equal to n multiplied by 2
  */
-function double(n) {
-  return n * 2;
-}
+// function double(n) {
+//   return n * 2;
+// }
+const double = n => n * 2;
 
 /**
  * Squares whatever number is passed in
@@ -14,10 +15,11 @@ function double(n) {
  * @param {number} n - a number to be squared
  * @returns {number} - Equal to n times itself
  */
-function square(n) {
-  // return n * n;
-  return n**2;
-}
+// function square(n) {
+//   // return n * n;
+//   return n**2;
+// }
+const square = n => n*n;
 
 /**
  * Multiplies two numbers that are passed in
@@ -26,10 +28,11 @@ function square(n) {
  * @param {number} b - The second number to multiply
  * @returns {number} - The result of a times b
  */
-function multiplyTwo(a, b) 
-{
-  return a * b;
-}
+// function multiplyTwo(a, b) 
+// {
+//   return a * b;
+// }
+const multiplyTwo = (a, b) => a * b;
 
 /**
  * Multiplies three numbers that are passed in
@@ -39,9 +42,10 @@ function multiplyTwo(a, b)
  * @param {number} c - The third number to multiply
  * @returns {number} - The result of a times b times c
  */
-function multiplyThree(a, b, c) {
-  return a * b * c;
-}
+// function multiplyThree(a, b, c) {
+//   return a * b * c;
+// }
+const multiplyThree = (a, b, c) => a * b * c;
 
 /**
  * Multiplies a number and a string together
@@ -50,9 +54,11 @@ function multiplyThree(a, b, c) {
  * @param {number} n - A number of any value
  * @returns {NaN} - Should return NaN (not a number) since this is an invalid operation in Javascript
  */
-function multiplyString(str, n) {
-  return str * n;
-}
+// function multiplyString(str, n) {
+//   return str * n;
+// }
+
+const multiplyString = (str, n) => str * n;
 
 module.exports = {
   double,
