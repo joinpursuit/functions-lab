@@ -5,7 +5,9 @@
  * @param {number} b - The second number, to be divided by
  * @returns {number} - Equal to a divided by b
  */
-function divideTwo() {
+function divideTwo(num1, num2) {
+  let divNum = num1 / num2;
+  return(divNum)
 
 }
 
@@ -17,7 +19,9 @@ function divideTwo() {
  * @param {number} b - The second number, to be divided by
  * @returns {number} - A whole number equal to a divided by b
  */
-function divideTwoRound() {
+function divideTwoRound(num1, num2) {
+  let divNumRound = num1 / num2;
+  return(Math.round(divNumRound))
 
 }
 
@@ -27,7 +31,9 @@ function divideTwoRound() {
  * @param {number} n - Any number
  * @returns {Infinity} - Equal to Infinity
 */
-function divideByZero() {
+function divideByZero(num) {
+  let divByZeroNum = num / 0;
+  return(divByZeroNum)
 
 }
 
@@ -39,7 +45,10 @@ function divideByZero() {
  * @returns {NaN} - Not a Number, since this is an invalid operation in JavaScript
  */
 
-function divideByString() {
+function divideByString(str, num) {
+  let string = "str";
+  let divideByStringNum = str / num;
+  return(divideByStringNum)
 
 }
 

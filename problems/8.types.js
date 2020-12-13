@@ -17,7 +17,11 @@
  * @param {number} b - the second number
  * @returns {boolean} - if a and b are both number types, return true
  */
-function bothNumbers() {
+function bothNumbers(a, b) {
+  let c = typeof(a) === "number"
+  let d = typeof(b) === "number"
+
+  return(c && d)
 
 }
 
@@ -29,8 +33,10 @@ function bothNumbers() {
  * @returns {boolean} - return true if either a or b are a number
  * 
  */
-function eitherNumber() {
-
+function eitherNumber(a, b) {
+  let c = typeof(a) === "number"
+  let d = typeof(b) === "number"
+  return (c || d)
 }
 
 /**
@@ -40,8 +46,8 @@ function eitherNumber() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are equal then return true, otherwise return false
  */
-function numbersEqual() {
-
+function numbersEqual(a, b) {
+  return a === b;
 }
 
 /**
@@ -51,7 +57,8 @@ function numbersEqual() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are not equal then return true, otherwise return false
  */
-function numbersNotEqual() {
+function numbersNotEqual(a, b) {
+  return a !== b;
 
 }
 
@@ -63,8 +70,10 @@ function numbersNotEqual() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are both even numbers, return true
  */
-function bothEven() {
-
+function bothEven(a, b) {
+  let c = a % 2 === 0;
+  let d = b % 2 === 0;
+  return c && d
 }
 
 /**
@@ -74,9 +83,15 @@ function bothEven() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are both odd numbers, return true
  */
-function bothOdd() {
-  
+function bothOdd(a, b) {
+  let c = a % 2 !== 0;
+  let d = b % 2 !== 0;
+  return c && d
 }
+
+// const bothOdd = (num1, num2) => {
+//   return(num1 && num2) % 2 !== 0;
+// }
 
 /**
  * Checks to see if either number is even
@@ -85,9 +100,16 @@ function bothOdd() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If either a or b is even, return true
  */
-function eitherEven() {
-
+ function eitherEven(a, b) {
+ return (a % 2 === 0) || (b % 2 === 0)
+//  let c = a % 2 === 0
+//  let d = b % 2 === 0
+//     return c || d
 }
+
+// const eitherEven = (a, b) => {
+//   return (a % 2 === 0) || (b % 2 === 0)
+// }
 
 module.exports = {
   bothNumbers,
