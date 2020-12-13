@@ -17,7 +17,8 @@
  * @param {number} b - the second number
  * @returns {boolean} - if a and b are both number types, return true
  */
-function bothNumbers() {
+function bothNumbers(numA, numB) {
+  return (typeof numA === typeof numB);
 
 }
 
@@ -29,7 +30,8 @@ function bothNumbers() {
  * @returns {boolean} - return true if either a or b are a number
  * 
  */
-function eitherNumber() {
+function eitherNumber(numA , numB ) {
+  return 'number' === typeof numA || 'number' === typeof numB ;
 
 }
 
@@ -40,7 +42,8 @@ function eitherNumber() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are equal then return true, otherwise return false
  */
-function numbersEqual() {
+function numbersEqual(numA, numB) {
+  return numA === numB;
 
 }
 
@@ -51,7 +54,8 @@ function numbersEqual() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are not equal then return true, otherwise return false
  */
-function numbersNotEqual() {
+function numbersNotEqual(numA , numB) {
+  return numA !== numB;
 
 }
 
@@ -63,7 +67,8 @@ function numbersNotEqual() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are both even numbers, return true
  */
-function bothEven() {
+function bothEven(numA, numB) {
+  return (numA % 2 === 0 ) && (numB % 2 === 0);
 
 }
 
@@ -74,7 +79,8 @@ function bothEven() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are both odd numbers, return true
  */
-function bothOdd() {
+function bothOdd(numA , numB) {
+  return (  numA % 2 !== 0 ) && ( numB % 2 !== 0);
   
 }
 
@@ -85,7 +91,8 @@ function bothOdd() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If either a or b is even, return true
  */
-function eitherEven() {
+function eitherEven(numA, numB) {
+  return  (numA % 2 === 0 ) || ( numB % 2 === 0); 
 
 }
 
