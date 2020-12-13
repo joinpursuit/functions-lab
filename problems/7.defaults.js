@@ -5,9 +5,11 @@
  * @param {number} [5] n - The number to be returned. Default value is 5.
  * @returns {number} Equal to either 5 or n
  */
-function defaultNum(n = 5) {
-    return n;
-}
+// function defaultNum(n = 5) {
+//     return n;
+// }
+
+const defaultNum = (n = 5) => {return n}
 
 /**
  * Returns whatever string is passed in, or "hello world" if none is passed in
@@ -15,9 +17,11 @@ function defaultNum(n = 5) {
  * @param {string} ["hello world"] str - The string to be returned
  * @returns {string} - Equal to str, or "hello world"
  */
-function defaultStr(n = "hello world") {
-    return n
-}
+// function defaultStr(n = "hello world") {
+//     return n
+// }
+
+const defaultStr = (n = "hello world") => {return n}
 
 module.exports = {
   defaultNum,

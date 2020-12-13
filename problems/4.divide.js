@@ -5,9 +5,11 @@
  * @param {number} b - The second number, to be divided by
  * @returns {number} - Equal to a divided by b
  */
-function divideTwo(a , b) {
-    return a / b
-}
+// function divideTwo(a , b) {
+//     return a / b
+// }
+
+const divideTwo = (a , b) => {return a / b}
 
 /**
  * Divides two numbers and returns the rounded result
@@ -17,9 +19,11 @@ function divideTwo(a , b) {
  * @param {number} b - The second number, to be divided by
  * @returns {number} - A whole number equal to a divided by b
  */
-function divideTwoRound(a , b) {
-    return Math.round(a / b)
-}
+// function divideTwoRound(a , b) {
+//     return Math.round(a / b)
+// }
+
+const divideTwoRound = (a , b) => {return Math.round(a / b)}
 
 /** 
  * Divides a number by zero
@@ -27,9 +31,11 @@ function divideTwoRound(a , b) {
  * @param {number} n - Any number
  * @returns {Infinity} - Equal to Infinity
 */
-function divideByZero(n) {
-    return n / 0
-}
+// function divideByZero(n) {
+//     return n / 0
+// }
+
+const divideByZero = (n) => {return n / 0}
 
 /**
  * Divides a number by a string
@@ -39,10 +45,11 @@ function divideByZero(n) {
  * @returns {NaN} - Not a Number, since this is an invalid operation in JavaScript
  */
 
-function divideByString(str , n) {
-    return n /str
-}
+// function divideByString(str , n) {
+//     return n /str
+// }
 
+const divideByString = (str , n) => {return n / str}
 
 module.exports = {
   divideTwo,
