@@ -17,7 +17,8 @@
  * @param {number} b - the second number
  * @returns {boolean} - if a and b are both number types, return true
  */
-function bothNumbers() {
+function bothNumbers(a, b) {
+  return (a && b)
 
 }
 
@@ -29,7 +30,8 @@ function bothNumbers() {
  * @returns {boolean} - return true if either a or b are a number
  * 
  */
-function eitherNumber() {
+function eitherNumber(a, b) {
+  return (a || b)
 
 }
 
@@ -40,7 +42,8 @@ function eitherNumber() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are equal then return true, otherwise return false
  */
-function numbersEqual() {
+function numbersEqual(a, b) {
+  return 
 
 }
 
