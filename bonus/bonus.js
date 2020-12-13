@@ -38,10 +38,11 @@ function averageAll() {
  * @param {number} n - the number to be flipped.
  * @returns {number} - The opposite value of n
  */
-function flipSign(n) {
-  // return n * -1;
-  return -n;
-}
+// function flipSign(n) {
+//   // return n * -1;
+//   return -n;
+// }
+const flipSign = n => -n;
 
 module.exports = {
   sumAll,
