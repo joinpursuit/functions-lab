@@ -5,18 +5,22 @@
  * @returns {number} - a random number between 0 and 1
  * 
  */
-function rand() {
+// function rand() {
+//     return Math.random();
+// }
 
-}
+const rand = () => {return Math.random()}
 
 /** 
  * Returns a rounded, random number between 1 and 6, like rolling a die
  * 
  * @returns {number} - A random number greater than 1 and less than 6
  */
-function diceRoll() {
+// function diceRoll() {
+//     return Math.floor(Math.random() * 7)
+// }
 
-}
+const diceRoll = () => {return Math.floor(Math.random() * 7)}
 
 /**
  * Returns a rounded, random number between 0 and n
@@ -24,11 +28,11 @@ function diceRoll() {
  * @param {number} n - A number that serves as the upper limit of random
  * @returns {number} - A random number betweeen 0 and n
  */
-function randRange() {
+// function randRange(n) {
+//     return Math.round(Math.random() * n)
+// }
 
-}
-
-
+const randRange = (n) => {return Math.round(Math.random() * n)}
 
 /**
  * Returns four
@@ -36,9 +40,11 @@ function randRange() {
  * 
  * @returns {number} - the number 4. don't overthink it.
  */
-function totallyFairDiceRoll() {
+// function totallyFairDiceRoll() {
+//     return 4
+// }
 
-}
+const totallyFairDiceRoll = () => {return 4}
 
 module.exports = {
   rand,
