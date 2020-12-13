@@ -15,7 +15,7 @@ function rand() {
  * @returns {number} - A random number greater than 1 and less than 6
  */
 function diceRoll() {
- return Math.round(Math.random(1, 6));
+ return Math.floor(Math.random()*6);
 }
 
 /**

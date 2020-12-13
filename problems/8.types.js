@@ -17,8 +17,8 @@
  * @param {number} b - the second number
  * @returns {boolean} - if a and b are both number types, return true
  */
-function bothNumbers(a, b ) {
-  return a && b
+function bothNumbers(a, b) {
+  return typeof a === typeof b
 }
 
 /**
@@ -30,7 +30,7 @@ function bothNumbers(a, b ) {
  * 
  */
 function eitherNumber(a, b) {
-  return a || b
+  return typeof(a) !== typeof(b) 
 }
 
 /**

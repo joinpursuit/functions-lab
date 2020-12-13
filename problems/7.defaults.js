@@ -6,8 +6,7 @@
  * @returns {number} Equal to either 5 or n
  */
 function defaultNum(n = 5) {
-    return 
-
+    return n
 }
 
 /**
@@ -16,8 +15,8 @@ function defaultNum(n = 5) {
  * @param {string} ["hello world"] str - The string to be returned
  * @returns {string} - Equal to str, or "hello world"
  */
-function defaultStr() {
-
+function defaultStr(str = "hello world") {
+    return str
 }
 
 module.exports = {
