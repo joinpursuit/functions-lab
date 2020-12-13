@@ -5,12 +5,12 @@
  * @param {numbers} this could be any number of parameters, all number type
  * @returns {number} - the sum of all the arguments passed in
  */
-function sumAll(numbers) {
+function sumAll() {
    // find how many numbers total to add --- 3 (5, 7,10)
   let sum = arguments[0]; //give sum the value of the first number --- sum = 5
   
-  for  (let counter = arguments.lenth - 1; counter < arguments.length; counter-- ) {// loop the amount of times [2 loops -- amount of numbers -1]
-    sum = sum + arguments[counter]; // sum =+ arguments[counter]
+  for  (let counter = arguments.lenth - 1; counter < arguments.length; counter--) {// loop the amount of times [2 loops -- amount of numbers -1]
+    sum = sum + arguments[counter]; // sum =+ arguments[counter];
      //5 + 7 = 12
     } // count down to next loop  --- n = n - 1
     //numbers = sum;
@@ -37,9 +37,10 @@ function averageAll() {
  * @param {number} n - the number to be flipped.
  * @returns {number} - The opposite value of n
  */
-function flipSign() {
-
-}
+// function flipSign(number) {
+//   return -number
+// }
+const flipSign = number => -number;
 
 module.exports = {
   sumAll,
