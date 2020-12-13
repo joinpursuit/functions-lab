@@ -5,12 +5,19 @@
  * @param {numbers} this could be any number of parameters, all number type
  * @returns {number} - the sum of all the arguments passed in
  */
-function sumAll(){
-  let number = 0;
-  for (let i=0; i < arguments.length; i++) {
-    number += arguments[i];
-  }
-  return number;
+// function sumAll(){
+//   let number = 0;
+//   let i;
+//   for (i=0; i < arguments.length; i++) {
+//     number += arguments[i];
+//   }
+//   return number;
+// }
+
+const sumAll = (...args) => {
+  let sum = 0;
+  for (const arg of args) sum += arg;
+  return sum;
 }
 
 /**
@@ -20,12 +27,20 @@ function sumAll(){
  * @param {numbers} this could be any number of parameters, all number type
  * @returns {number} - A whole number the average of all the arguments passed in
  */
-function averageAll() {
-  let number = 0;
-  for (let i=0; i < arguments.length; i++) {
-    number += arguments[i];
-  }
-  let average = number/arguments.length;
+// function averageAll() {
+//   let i;
+//   let number = 0;
+//   for (i=0; i < arguments.length; i++) {
+//     number += arguments[i];
+//   }
+//   let average = number/arguments.length;
+//   return Math.round(average);
+// }
+
+const averageAll = (...args) => {
+  let sum = 0;
+  for (const arg of args) sum += arg;
+  let average = sum/args.length;
   return Math.round(average);
 }
 
