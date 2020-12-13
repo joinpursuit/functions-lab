@@ -5,8 +5,9 @@
  * @param {numbers} this could be any number of parameters, all number type
  * @returns {number} - the sum of all the arguments passed in
  */
-function sumAll() {
-
+function sumAll(numbers) {
+  console.log(arguments);
+  return (numbers);
 }
 
 /**
