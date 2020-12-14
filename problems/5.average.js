@@ -10,8 +10,10 @@
  * @returns {number} - A whole number equal to the average of a and b
  */ 
 function average(a, b) {
+  return a + b / 2
 
-  return (a + b) / 2
+
+  
 }
 
 /**
