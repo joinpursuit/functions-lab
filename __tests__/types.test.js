@@ -16,6 +16,7 @@ describe("8. bothNumbers", () => {
   test("returns the correct answer", () => {
     expect(bothNumbers(11, 49)).toBe(true)
     expect(bothNumbers("what", 49)).toBe(false)
+    expect(bothNumbers("what", "cat")).toBe(false)
   })
 })
 
@@ -28,6 +29,7 @@ describe("8. eitherNumber", () => {
     expect(eitherNumber("19", 19)).toBe(true)
     expect(eitherNumber(19, "19")).toBe(true)
     expect(eitherNumber("19", "19")).toBe(false)
+    expect(eitherNumber(true, "19")).toBe(false)
   })
 })
 
