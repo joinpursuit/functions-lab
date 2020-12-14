@@ -4,8 +4,10 @@
  * @returns undefined
  */
 function helloWorld() {
- console.log ("hello world")
+  console.log ("hello world")
+  return undefined
 }
+
 
 
 /**
@@ -16,16 +18,16 @@ function helloWorld() {
  */
 function helloName(name) {
     console.log("hello " + name)
+    return undefined
 }
 
 /**
  * Returns the string "hello world"
- * 
+ *  
  * @returns {string} - the string "hello world"
  */
 function returnHelloWorld() {
   return "hello world"
-console.log *(returnHelloWorld)
 }
 
 /**
@@ -37,7 +39,6 @@ console.log *(returnHelloWorld)
  */
 function returnHelloName(name) {
   return "Hello " + name + "!"
-console.log(returnHelloName)
 }
 
 module.exports = {
