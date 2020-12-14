@@ -52,7 +52,7 @@ function numbersEqual(a, b) {
  * @returns {boolean} - If a and b are not equal then return true, otherwise return false
  */
 function numbersNotEqual(a , b) {
-  return !(a === b) 
+  return a !== b 
 }
 
 /**
