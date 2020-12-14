@@ -9,7 +9,7 @@
  * @param {number} b - The second number
  * @returns {number} - A whole number equal to the average of a and b
  */
-function average(a, b) {
+const average = (a, b) => {
   return Math.round ((a + b)/2)
 }
 
@@ -21,7 +21,7 @@ function average(a, b) {
  * @param {number} c - The third number
  * @returns {number} - A whole number equal to the average of a and b and c
  */
-function averageThree(a, b, c) {
+const averageThree = (a, b, c) => {
   let sum = a + b + c
   return Math.round(sum / 3)
 }
