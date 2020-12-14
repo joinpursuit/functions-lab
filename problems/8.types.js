@@ -18,8 +18,7 @@
  * @returns {boolean} - if a and b are both number types, return true
  */
 function bothNumbers(a, b) {
-  return typeof(a) === Number && typeof(b) === Number
-
+  return typeof(a) === "number" && typeof(b) === "number"
 }
 
 /**
