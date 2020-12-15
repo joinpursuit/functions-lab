@@ -40,6 +40,8 @@ function sumAll() {
 //need a counter  
 //divide sum by amount of numbers
 //return average
+//make the average function call the sum function ???
+//and then just divide the sum by total numbers ???
 
 function averageAll() {
 

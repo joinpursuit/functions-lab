@@ -15,7 +15,7 @@ function defaultNum(n = 5) {
  * @param {string} ["hello world"] str - The string to be returned
  * @returns {string} - Equal to str, or "hello world"
  */
-function defaultStr(str = "helloo world") {
+function defaultStr(str = "hello world") {
   return str;
 }
 
