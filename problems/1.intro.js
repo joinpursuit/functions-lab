@@ -19,7 +19,7 @@ function helloWorld() {
 function helloName(name) {
   return "hello" + name;
 }
-console.log("hello ${name}")
+console.log(helloName());
 
 
 

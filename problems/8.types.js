@@ -18,8 +18,9 @@
  * @returns {boolean} - if a and b are both number types, return true
  */
 function bothNumbers(num1, num2) {
-
-  return true;
+  let a = true
+  let b = true
+  return a && b;
 }
 
 
@@ -32,9 +33,8 @@ function bothNumbers(num1, num2) {
  * @returns {boolean} - return true if either a or b are a number
  * 
  */
-function eitherNumber(num1, num2) {
- num1 === num2 || num2 === undefined;
- return result
+function eitherNumber(num1, num2 = 2) {
+ console.log( num1 && num2 || num2 && num1 );
 }
 
 /**
@@ -44,8 +44,8 @@ function eitherNumber(num1, num2) {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are equal then return true, otherwise return false
  */
-function numbersEqual() {
-
+function numbersEqual(num1, num2) {
+    return num1 + num2 == num2 + num1
 }
 
 /**
@@ -67,8 +67,8 @@ function numbersNotEqual() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are both even numbers, return true
  */
-function bothEven() {
-
+function bothEven(num1, num2) {
+return num1 % 10 || num2 %10;
 }
 
 /**
@@ -78,8 +78,8 @@ function bothEven() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are both odd numbers, return true
  */
-function bothOdd() {
-  
+function bothOdd(num1, num2) {
+   return (num1 == Math.odds()) || (num2 == Math.odds())
 }
 
 /**
