@@ -17,9 +17,14 @@
  * @param {number} b - the second number
  * @returns {boolean} - if a and b are both number types, return true
  */
-function bothNumbers() {
-
+function bothNumbers(a, b) {
+  // return typeof a === 'number' && typeof b === 'number';  
+  let isANumber = typeof a === 'number'
+  let isBNumber = typeof b === 'number'
+  return isANumber && isBNumber;
+  
 }
+
 
 /**
  * Checks to see if either parameter is a number
@@ -29,8 +34,10 @@ function bothNumbers() {
  * @returns {boolean} - return true if either a or b are a number
  * 
  */
-function eitherNumber() {
-
+function eitherNumber(a, b) {
+  let isANumber = typeof a === 'number'
+  let isBNumber = typeof b === 'number'
+  return isANumber || isBNumber;
 }
 
 /**
@@ -40,8 +47,8 @@ function eitherNumber() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are equal then return true, otherwise return false
  */
-function numbersEqual() {
-
+function numbersEqual(a, b) {
+  return a === b;
 }
 
 /**
@@ -51,8 +58,8 @@ function numbersEqual() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are not equal then return true, otherwise return false
  */
-function numbersNotEqual() {
-
+function numbersNotEqual(a, b) {
+  return a !== b;
 }
 
 /**
@@ -63,8 +70,10 @@ function numbersNotEqual() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are both even numbers, return true
  */
-function bothEven() {
-
+function bothEven(a, b) {
+  let isANumber = a % 2 === 0
+  let isBNumber = b % 2 === 0
+  return isANumber && isBNumber;
 }
 
 /**
@@ -74,8 +83,10 @@ function bothEven() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are both odd numbers, return true
  */
-function bothOdd() {
-  
+function bothOdd(a, b) {
+  let isANumber = a % 2 !== 0
+  let isBNumber = b % 2 !== 0
+  return isANumber && isBNumber;
 }
 
 /**
@@ -85,8 +96,10 @@ function bothOdd() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If either a or b is even, return true
  */
-function eitherEven() {
-
+function eitherEven(a, b) {
+  let isANumber = a % 2 === 0
+  let isBNumber = b % 2 === 0
+  return isANumber || isBNumber;
 }
 
 module.exports = {
