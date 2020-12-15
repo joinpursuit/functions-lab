@@ -4,20 +4,24 @@
  * @param {number} n - a number to be doubled
  * @returns {number} - Equal to n multiplied by 2
  */
-function double(n) {
- return n * 2
+// function double(n) {
+//  return n * 2
+// }
+const double = (n) =>{
+  return n * 2;
 }
-
 /**
  * Squares whatever number is passed in
  * 
  * @param {number} n - a number to be squared
  * @returns {number} - Equal to n times itself
  */
-function square(n) {
+// function square(n) {
+//   return n * n;
+// }
+const square =(n) =>{
   return n * n;
 }
-
 /**
  * Multiplies two numbers that are passed in
  * 
@@ -28,7 +32,6 @@ function square(n) {
 function multiplyTwo(a, b) {
   return a * b;
 }
-
 /**
  * Multiplies three numbers that are passed in
  * 
