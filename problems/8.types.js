@@ -18,13 +18,10 @@
  * @returns {boolean} - if a and b are both number types, return true
  */
 function bothNumbers(num1, num2) {
-let a = num1
-let b = num2
-a === b
 
-  return true
-
+  return true;
 }
+
 
 
 /**
@@ -35,8 +32,9 @@ a === b
  * @returns {boolean} - return true if either a or b are a number
  * 
  */
-function eitherNumber() {
-
+function eitherNumber(num1, num2) {
+ num1 === num2 || num2 === undefined;
+ return result
 }
 
 /**

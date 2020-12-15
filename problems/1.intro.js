@@ -17,10 +17,9 @@ function helloWorld() {
  */
 
 function helloName(name) {
- return  "hello " + name;
+  return "hello" + name;
 }
-console.log(helloName(`hello ${name}`));
-
+console.log("hello ${name}")
 
 
 
