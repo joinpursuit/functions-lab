@@ -6,7 +6,13 @@
  * @returns {number} Equal to either 5 or n
  */
 function defaultNum() {
-
+  if( 5 === 5) {
+  return 5;
+} else if( n !== n){
+  return n; 
+}else {
+  return;
+}
 }
 
 /**
@@ -18,6 +24,7 @@ function defaultNum() {
 function defaultStr() {
 
 }
+
 
 module.exports = {
   defaultNum,
