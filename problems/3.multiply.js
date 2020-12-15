@@ -4,7 +4,9 @@
  * @param {number} n - a number to be doubled
  * @returns {number} - Equal to n multiplied by 2
  */
-function double() {
+function double(n) {
+   let doubleNum = n * 2
+   return doubleNum
 
 }
 
@@ -14,8 +16,9 @@ function double() {
  * @param {number} n - a number to be squared
  * @returns {number} - Equal to n times itself
  */
-function square() {
-
+function square(n) {
+    squNum = n * n
+ return squNum
 }
 
 /**
@@ -25,7 +28,9 @@ function square() {
  * @param {number} b - The second number to multiply
  * @returns {number} - The result of a times b
  */
-function multiplyTwo() {
+function multiplyTwo(num1,num2) {
+    let mulNum = num1 * num2;
+    return mulNum
 
 }
 
@@ -37,7 +42,9 @@ function multiplyTwo() {
  * @param {number} c - The third number to multiply
  * @returns {number} - The result of a times b times c
  */
-function multiplyThree() {
+function multiplyThree(num1, num2, num3) {
+  mulNumThree = num1 * num2 * num3;
+  return mulNumThree
   
 }
 
@@ -48,7 +55,11 @@ function multiplyThree() {
  * @param {number} n - A number of any value
  * @returns {NaN} - Should return NaN (not a number) since this is an invalid operation in Javascript
  */
-function multiplyString() {
+
+function multiplyString(str,num) {
+  let string = "hello"
+  let strNum = string * num;
+  return strNum
 
 }
 
