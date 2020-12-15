@@ -30,7 +30,7 @@ function divideTwoRound(num1, num2) {
  * @returns {Infinity} - Equal to Infinity
 */
 function divideByZero(num1, num2 = 0) {
-  return num1 / Math.PI;
+  return num1 / num2
 }
 
 /**
