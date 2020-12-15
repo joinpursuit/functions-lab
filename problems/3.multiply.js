@@ -5,7 +5,7 @@
  * @returns {number} - Equal to n multiplied by 2
  */
 function double(n) {
-  return n  * n;
+  return n * 2;
 }
 
 /**
@@ -15,7 +15,7 @@ function double(n) {
  * @returns {number} - Equal to n times itself
  */
 function square(n) {
-  return Math.pow(n);
+  return n * n;
 }
 
 /**
