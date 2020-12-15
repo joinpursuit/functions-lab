@@ -25,7 +25,7 @@ function diceRoll() {
  * @returns {number} - A random number betweeen 0 and n
  */
 function randRange(n) {
-  return Math.floor(Math.random() * n) + 1;
+  return Math.floor(Math.random() * n);
 }
 
 /**
