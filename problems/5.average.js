@@ -10,9 +10,9 @@
  * @returns {number} - A whole number equal to the average of a and b
  */
 function average(num1, num2) {
-  let a = num1 + num2;
-  let b = 2;
-  return a / b;
+  let averagenum = 2
+  let average = num1 +num2
+  return Math.ceil(average / averagenum) 
 }
 
 /**
@@ -33,4 +33,4 @@ function averageThree(num1, num2, num3) {
 module.exports = {
   average,
   averageThree
-};
+}
