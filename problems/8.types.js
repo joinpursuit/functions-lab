@@ -17,9 +17,11 @@
  * @param {number} b - the second number
  * @returns {boolean} - if a and b are both number types, return true
  */
-function bothNumbers() {
-
+function bothNumbers(a ,b ) {
+ return typeof(a) === "number" && typeof(b) === "number"
 }
+
+console.log(bothNumbers(13,12))
 
 /**
  * Checks to see if either parameter is a number
@@ -29,10 +31,10 @@ function bothNumbers() {
  * @returns {boolean} - return true if either a or b are a number
  * 
  */
-function eitherNumber() {
-
+function eitherNumber(a,b) {
+return typeof(a) === "number" || typeof(b) === "number"
 }
-
+console.log(eitherNumber("asas",12))
 /**
  * Checks to see if both numbers are equal
  * 
@@ -40,10 +42,10 @@ function eitherNumber() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are equal then return true, otherwise return false
  */
-function numbersEqual() {
-
+function numbersEqual(a,b) {
+return a === b 
 }
-
+console.log(numbersEqual(10,12))
 /**
  * Checks to see if both numbers are not equal
  * 
@@ -51,10 +53,10 @@ function numbersEqual() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are not equal then return true, otherwise return false
  */
-function numbersNotEqual() {
-
+function numbersNotEqual(a,b) {
+return a !== b
 }
-
+console.log(numbersNotEqual(10,10))
 /**
  * Checks to see if both numbers are even
  * Hint: look up the modulo operator (%)
@@ -63,10 +65,10 @@ function numbersNotEqual() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are both even numbers, return true
  */
-function bothEven() {
-
+function bothEven(a,b) {
+return  (a % 2)=== 0 &&  (b % 2) === 0
 }
-
+console.log(bothEven(12,8))
 /**
  * Checks to see if both numbers are odd 
  * 
@@ -74,10 +76,10 @@ function bothEven() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are both odd numbers, return true
  */
-function bothOdd() {
-  
+function bothOdd(a,b) {
+  return  (a % 2)!== 0 &&  (b % 2) !== 0  
 }
-
+console.log(bothOdd(3,7))
 /**
  * Checks to see if either number is even
  * 
@@ -85,10 +87,10 @@ function bothOdd() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If either a or b is even, return true
  */
-function eitherEven() {
-
+function eitherEven(a,b) {
+return (a % 2)=== 0 ||  (b % 2) === 0
 }
-
+console.log(eitherEven(3,16))
 module.exports = {
   bothNumbers,
   eitherNumber,
