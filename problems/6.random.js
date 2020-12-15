@@ -38,7 +38,7 @@ function randRange(n) {
  * @returns {number} - the number 4. don't overthink it.
  */
 function totallyFairDiceRoll() {
-  return 2 + Math.floor(1 * 2);
+  return 2 + Math.floor(2)
 }
 
 module.exports = {

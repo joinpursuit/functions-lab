@@ -17,9 +17,15 @@
  * @param {number} b - the second number
  * @returns {boolean} - if a and b are both number types, return true
  */
-function bothNumbers() {
+function bothNumbers(num1, num2) {
+let a = num1
+let b = num2
+a === b
+
+  return true
 
 }
+
 
 /**
  * Checks to see if either parameter is a number
