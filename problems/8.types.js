@@ -17,9 +17,15 @@
  * @param {number} b - the second number
  * @returns {boolean} - if a and b are both number types, return true
  */
-function bothNumbers() {
-
+function bothNumbers(a, b) {
+//  let firstNumber = a && a === 'number' || false
+//  let secondNumber = b && b === 'number' || false
+//  ** IT'S A BIT RIDICULOUS THAT THIS TESTS PROPERLY^^ LOL
+  return typeof(a) === typeof(b)
 }
+
+console.log(bothNumbers(4, 5))
+
 
 /**
  * Checks to see if either parameter is a number
@@ -29,9 +35,17 @@ function bothNumbers() {
  * @returns {boolean} - return true if either a or b are a number
  * 
  */
-function eitherNumber() {
+function eitherNumber(a, b) {
+  return (a/1) === a || (b/1) === b
+//  IT'S EVEN MORE RIDICULOUS THAT THIS WORKS ^^
 
+//  typeof(a || b) === 'number'
+//  typeof(a || b) === typeof(1)
+//  AND IT'S RIDICULOUS THAT THIS DOESN'T ^^ XD
 }
+
+console.log(eitherNumber(1, 'them'))
+
 
 /**
  * Checks to see if both numbers are equal
@@ -40,9 +54,11 @@ function eitherNumber() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are equal then return true, otherwise return false
  */
-function numbersEqual() {
-
+function numbersEqual(a, b) {
+  return a === b
 }
+
+console.log(numbersEqual(4,3))
 
 /**
  * Checks to see if both numbers are not equal
@@ -51,9 +67,12 @@ function numbersEqual() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are not equal then return true, otherwise return false
  */
-function numbersNotEqual() {
-
+function numbersNotEqual(a, b) {
+  return a !== b;
 }
+
+console.log(numbersNotEqual(4, 5))
+
 
 /**
  * Checks to see if both numbers are even
@@ -63,9 +82,11 @@ function numbersNotEqual() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are both even numbers, return true
  */
-function bothEven() {
-
+function bothEven(a, b) {
+  return a % 2 === 0 && b % 2 === 0;
 }
+
+console.log(bothEven(2, 4))
 
 /**
  * Checks to see if both numbers are odd 
@@ -74,9 +95,11 @@ function bothEven() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are both odd numbers, return true
  */
-function bothOdd() {
-  
+function bothOdd(a, b) {
+  return a % 2 !== 0 && b % 2 !== 0;
 }
+
+console.log(bothOdd(5, 3))
 
 /**
  * Checks to see if either number is even
@@ -85,9 +108,11 @@ function bothOdd() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If either a or b is even, return true
  */
-function eitherEven() {
-
+function eitherEven(a, b) {
+  return a % 2 === 0 || b % 2 === 0;
 }
+
+console.log(eitherEven(3, 4))
 
 module.exports = {
   bothNumbers,

@@ -4,9 +4,11 @@
  * @param {number} n - a number to be doubled
  * @returns {number} - Equal to n multiplied by 2
  */
-function double() {
-
+function double(n) {
+  return n * 2
 }
+
+console.log(double(3))
 
 /**
  * Squares whatever number is passed in
@@ -14,9 +16,11 @@ function double() {
  * @param {number} n - a number to be squared
  * @returns {number} - Equal to n times itself
  */
-function square() {
-
+function square(n) {
+  return n ** 2
 }
+
+console.log(square(3))
 
 /**
  * Multiplies two numbers that are passed in
@@ -25,9 +29,11 @@ function square() {
  * @param {number} b - The second number to multiply
  * @returns {number} - The result of a times b
  */
-function multiplyTwo() {
-
+function multiplyTwo(a, b) {
+  return a * b
 }
+
+console.log(multiplyTwo(2, 3))
 
 /**
  * Multiplies three numbers that are passed in
@@ -37,9 +43,11 @@ function multiplyTwo() {
  * @param {number} c - The third number to multiply
  * @returns {number} - The result of a times b times c
  */
-function multiplyThree() {
-  
+function multiplyThree(a, b, c) {
+  return a * b * c
 }
+
+console.log(multiplyThree(2, 3, 4))
 
 /**
  * Multiplies a number and a string together
@@ -48,9 +56,11 @@ function multiplyThree() {
  * @param {number} n - A number of any value
  * @returns {NaN} - Should return NaN (not a number) since this is an invalid operation in Javascript
  */
-function multiplyString() {
-
+function multiplyString(str, n) {
+  return str * n;
 }
+
+console.log(multiplyString('me', 3))
 
 module.exports = {
   double,
