@@ -6,7 +6,7 @@
  * 
  */
 function rand() {
-
+  return Math.random()
 }
 
 /** 
@@ -15,7 +15,7 @@ function rand() {
  * @returns {number} - A random number greater than 1 and less than 6
  */
 function diceRoll() {
-
+return Math.max(6)  
 }
 
 /**
@@ -24,8 +24,10 @@ function diceRoll() {
  * @param {number} n - A number that serves as the upper limit of random
  * @returns {number} - A random number betweeen 0 and n
  */
-function randRange() {
-
+Math.random() 
+function randRange(n) {
+  Math.max(n)
+  Math.min(0)
 }
 
 
