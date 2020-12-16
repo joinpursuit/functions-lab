@@ -6,9 +6,13 @@
  * @returns {number} - the sum of all the arguments passed in
  */
 function sumAll() {
-
+  let s = 0;
+  for (let i=0; i < arguments.length; i++) {
+  
+      s += arguments[i];
+  }
+  return s
 }
-
 /**
  * Average all the arguments passed in, no matter how many there are
  * Hint: look up the `arguments` keyword. This will require you to loop.
@@ -17,8 +21,13 @@ function sumAll() {
  * @returns {number} - A whole number the average of all the arguments passed in
  */
 function averageAll() {
-
-}
+  let s = 0;
+  for (let i=0; i < arguments.length; i++) {
+      s += arguments[i];
+  }
+    let avg = Math.round(s / arguments.length)
+  return avg
+  }
 
 /**
  * Flip the sign of the number passed in.
@@ -29,8 +38,8 @@ function averageAll() {
  * @param {number} n - the number to be flipped.
  * @returns {number} - The opposite value of n
  */
-function flipSign() {
-
+function flipSign(n) {
+return n * -1
 }
 
 module.exports = {
