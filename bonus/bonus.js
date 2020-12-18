@@ -1,3 +1,5 @@
+const { sum } = require("../problems/2.sum")
+
 /**
  * Sum all the arguments passed in, no matter how many there are
  * Hint: look up the `arguments` keyword. This will require you to loop.
@@ -6,7 +8,14 @@
  * @returns {number} - the sum of all the arguments passed in
  */
 function sumAll() {
+    this = 0
+  for ( this n = this; n <= this; n + n); {
+    sumAll += n;
+  }
 
+    function newFunction() {
+      return this
+    }
 }
 
 /**
