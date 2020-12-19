@@ -5,9 +5,16 @@
  * @param {numbers} this could be any number of parameters, all number type
  * @returns {number} - the sum of all the arguments passed in
  */
-function sumAll() {
-
+const sumAll = () => {
+  let sum = arguments[0];
+  for (let i = 1; i < arguments.length; i++) {
+    sum += arguments[i];
+    // console.log(sum)
+  } return sum
 }
+// console.log(sumAll(2, 3, 4, 5, 6, 7, 8, 9, 0))
+// sumAll(2, 3, 4, 5, 6, 7, 8, 9, 0)
+
 
 /**
  * Average all the arguments passed in, no matter how many there are
