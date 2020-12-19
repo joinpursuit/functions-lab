@@ -33,7 +33,7 @@ function sumThree(a,b,c) {
 a = 10
 b = 6
 function subtract(a,b) {
- -b = a - b
+ return a - b
 }
 
 

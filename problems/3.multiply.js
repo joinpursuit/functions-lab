@@ -16,7 +16,7 @@ function double(n) {
  * @returns {number} - Equal to n times itself
  */
 function square(n) {
-  return n ^ 2
+  return n * n
 
 }
 
@@ -53,7 +53,7 @@ function multiplyThree(a,b,c) {
  * @param {number} n - A number of any value
  * @returns {NaN} - Should return NaN (not a number) since this is an invalid operation in Javascript
  */
-function multiplyString() {
+function multiplyString(n) {
   return "str" * n 
 
 }

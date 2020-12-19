@@ -18,7 +18,7 @@ function divideTwo(a,b) {
  * @param {number} b - The second number, to be divided by
  * @returns {number} - A whole number equal to a divided by b
  */
-function divideTwoRound() {
+function divideTwoRound(a,b) {
   return Math.round(a / b)
 
 }
