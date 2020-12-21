@@ -30,7 +30,7 @@ return typeof a === typeof b
  * 
  */
 function eitherNumber(a, b) {
-return 
+return typeof a === 'number' ? true : false || typeof b === 'number' ? true : false
 }
 
 /**
