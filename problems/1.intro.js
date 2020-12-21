@@ -5,11 +5,9 @@
  */
 
  function helloWorld() {
-
    console.log ('hello world')
-   return ;
+   return;
  }
-
 
 /**
  * Console logs the string "hello ${name}"
@@ -21,7 +19,6 @@
  function helloName(name) {
    console.log('hello ' + name)
 }
-
 
 /**
  * Returns the string "hello world"
