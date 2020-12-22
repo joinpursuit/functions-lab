@@ -4,8 +4,10 @@
  * @param {number} n - a number to be doubled
  * @returns {number} - Equal to n multiplied by 2
  */
-function double(n) {
-  return n * 2;
+function double(num) {
+  let n = num
+  double = (num * 2)
+  return double;
 }
 
 /**
@@ -14,8 +16,10 @@ function double(n) {
  * @param {number} n - a number to be squared
  * @returns {number} - Equal to n times itself
  */
-function square(n) {
-  return n * n;
+function square(num) {
+  let n = num;
+  square = Math.pow(num, 2)
+  return square;
 }
 
 /**
