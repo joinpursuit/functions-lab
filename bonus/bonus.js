@@ -6,7 +6,7 @@
  * @returns {number} - the sum of all the arguments passed in
  */
 function sumAll() {
-
+  arguments 
 }
 
 /**
@@ -29,9 +29,7 @@ function averageAll() {
  * @param {number} n - the number to be flipped.
  * @returns {number} - The opposite value of n
  */
-function flipSign() {
-
-}
+const flipSign = n => n * -1
 
 module.exports = {
   sumAll,
