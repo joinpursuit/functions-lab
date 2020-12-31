@@ -1,5 +1,5 @@
 /**
- * Takes in two values and returns their rounded average
+ * function average(a, b) {Takes in two values and returns their rounded average}
  * 
  * Hint: the way to get the average of a set of numbers is
  * to sum all the numbers then divide that sum by how many numbers 
@@ -7,12 +7,12 @@
  *
  * @param {number} a - The first number
  * @param {number} b - The second number
- * @returns {number} - A whole number equal to the average of a and b
+ * @returns {number} - A whole number equal to the averag
  */
 function average(a, b) {
-  return (a(Math.round()) + b(Math.round()) / 2) 
-
+  return Math.round((a + b)/ 2)
 }
+  
 
 /**
  * Takes in three values and returns their rounded average
@@ -23,7 +23,7 @@ function average(a, b) {
  * @returns {number} - A whole number equal to the average of a and b and c
  */
 function averageThree(a, b, c) {
-  return (a(Math.round()) + b(Math.round()) + c(Math.round())) / 3)
+  return (Math.round(a) + Math.round(b) + Math.round(c)) / 3
 
 }
 

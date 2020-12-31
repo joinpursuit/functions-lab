@@ -18,7 +18,7 @@ function divideTwo(a, b) {
  * @returns {number} - A whole number equal to a divided by b
  */
 function divideTwoRound(a, b) {
- return a % b 
+ return Math.round(a / b)
 }
 
 /** 
@@ -28,7 +28,7 @@ function divideTwoRound(a, b) {
  * @returns {Infinity} - Equal to Infinity
 */
 function divideByZero(n) {
- return n * 0 
+ return n / 0 
 }
 
 /**
