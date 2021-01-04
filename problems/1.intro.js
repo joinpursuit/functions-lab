@@ -3,11 +3,15 @@
  * 
  * @returns undefined
  */
-function helloWorld () {
-let intro = "hello world"
-console.log(intro)
-}
-helloWorld ()
+let helloWorld;
+ console.log(helloWorld);
+//I have been studying on codecademy, I solved the first problem right :) but could not run the test :( will retry.
+
+//function helloWorld () {
+//let intro = "hello world"
+//console.log(intro)
+//}
+//helloWorld ()
 
 /**
  * Console logs the string "hello ${name}"
