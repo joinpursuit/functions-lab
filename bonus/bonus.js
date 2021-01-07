@@ -5,9 +5,14 @@
  * @param {numbers} this could be any number of parameters, all number type
  * @returns {number} - the sum of all the arguments passed in
  */
-function sumAll() {
-
+function sumAll(numbers) {
+  for (let i = 0; i < numbers; i++){
+    return numbers += i
+  } if (numbers === 0) {
+    return 0
+  }
 }
+
 
 /**
  * Average all the arguments passed in, no matter how many there are
@@ -16,7 +21,7 @@ function sumAll() {
  * @param {numbers} this could be any number of parameters, all number type
  * @returns {number} - A whole number the average of all the arguments passed in
  */
-function averageAll() {
+function averageAll(this) {
 
 }
 

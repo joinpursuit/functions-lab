@@ -37,16 +37,11 @@ returnHelloWorld()
  * @param {string} name - the name to added to the return string
  * @returns {string} A greeting in the form of "Hello ${name}!"
  */
-let greet = "Hello"
-
  function returnHelloName(name) {
-  return greet + "" + name
+  return `Hello ${name}!`
+}
 
-  }
 
-  let newGreet = returnHelloName("$David!")
-
-console.log(newGreet)
 
 module.exports = {
   helloWorld,

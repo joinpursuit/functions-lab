@@ -78,7 +78,7 @@ function bothEven(a, b) {
  * @returns {boolean} - If a and b are both odd numbers, return true
  */
 function bothOdd(a, b) {
-  return a % b === 
+   return ((a / 2 % 1 !== 0 && b / 2 % 1 !== 0) ) 
 }
 
 /**
