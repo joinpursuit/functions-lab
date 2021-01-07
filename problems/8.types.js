@@ -30,7 +30,7 @@ return (typeof a == "number") && (typeof b === "number")
  * 
  */
 function eitherNumber(a,b) {
-  return typeof a || typeof b
+  return typeof a ==="number"|| typeof b === "number"
 
 }
 
@@ -90,7 +90,7 @@ function bothOdd(a,b) {
  */
 function eitherEven(a,b) { 
        
-  return a % 2 === 0 && b % 2 === 0 
+  return a % 2 === 0 || b % 2 === 0 
 
 }
 
