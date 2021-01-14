@@ -7,7 +7,7 @@
  *
  * @param {number} a - The first number
  * @param {number} b - The second number
- * @returns {number} - A whole number equal to the averag
+ * @returns {number} - A whole number equal to the average
  */
 function average(a, b) {
   return Math.round((a + b)/ 2)
