@@ -17,8 +17,8 @@
  * @param {number} b - the second number
  * @returns {boolean} - if a and b are both number types, return true
  */
-function bothNumbers(numA, numB) {
-  return (typeof numA === typeof numB);
+const bothNumbers = (numA, numB) =>{
+  return (typeof numA === 'number' && typeof numB === 'number');
 
 }
 

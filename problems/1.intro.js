@@ -3,9 +3,8 @@
  * 
  * @returns undefined
  */
-function helloWorld(pursuit) {
+function helloWorld() {
       console.log("hello world")
-      return pursuit;
 }
 
 
@@ -26,9 +25,9 @@ function helloName(name) {
  * 
  * @returns {string} - the string "hello world"
  */
-function returnHelloWorld(greeting) {
+function returnHelloWorld() {
     greeting = "hello world";
-    return (greeting);
+    return greeting;
 }
 
 /**
