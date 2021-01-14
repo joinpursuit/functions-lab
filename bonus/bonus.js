@@ -6,8 +6,14 @@
  * @returns {number} - the sum of all the arguments passed in
  */
 function sumAll() {
-
+console.log(arguments)
+let sum = 0
+for(let i = 0; i < arguments.length; i++) {
+  sum += arguments[i]
 }
+return sum
+}
+console.log(sumAll(10,55,33))
 
 
 
@@ -19,6 +25,13 @@ function sumAll() {
  * @returns {number} - A whole number the average of all the arguments passed in
  */
 function averageAll() {
+  let average = 0
+  let sum = 0
+  for(let i = 0; i < arguments.length; i++) {
+sum += arguments[i]
+  }
+  average = Math.round(sum / arguments.length)
+  return average
 
 }
 

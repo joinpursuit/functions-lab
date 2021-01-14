@@ -19,6 +19,15 @@ function defaultStr(str) {
 return str || "hello world"
 }
 
+// Solution using default parameter
+function defaultStr1(str="hello world"){
+  return str
+}
+
+console.log(defaultStr1("a different string"))
+console.log(defaultStr1())
+
+
 module.exports = {
   defaultNum,
   defaultStr,
