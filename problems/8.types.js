@@ -17,8 +17,8 @@
  * @param {number} b - the second number
  * @returns {boolean} - if a and b are both number types, return true
  */
-function bothNumbers(a, b ) {
-  return typeof a === 'number' && typeof b ==='number'
+function bothNumbers(a, b) {
+ return typeof a === 'number' && typeof b === 'number';
 }
 
 /**
@@ -30,7 +30,7 @@ function bothNumbers(a, b ) {
  * 
  */
 function eitherNumber(a, b) {
-  return typeof a === 'number' || typeof b === 'number'
+  return typeof a === 'number' || typeof b === 'number';
 }
 
 /**
@@ -41,7 +41,7 @@ function eitherNumber(a, b) {
  * @returns {boolean} - If a and b are equal then return true, otherwise return false
  */
 function numbersEqual(a, b) {
-    return a === b
+    return a === b;
 }
 
 /**
@@ -52,7 +52,7 @@ function numbersEqual(a, b) {
  * @returns {boolean} - If a and b are not equal then return true, otherwise return false
  */
 function numbersNotEqual(a, b) {
-    return a !== b
+ return a !== b;   
 }
 
 /**
@@ -64,7 +64,7 @@ function numbersNotEqual(a, b) {
  * @returns {boolean} - If a and b are both even numbers, return true
  */
 function bothEven(a, b) {
-    return a % 2 === 0 && b % 2 === 0;
+ return a % 2 === 0 && b % 2 === 0;  
 }
 
 /**
@@ -75,8 +75,7 @@ function bothEven(a, b) {
  * @returns {boolean} - If a and b are both odd numbers, return true
  */
 function bothOdd(a, b) {
-   return a % 2 === 1 && b % 2 === 1;
-  
+  return a % 2 === 1 && b % 2 === 1;
 }
 
 /**
@@ -87,7 +86,7 @@ function bothOdd(a, b) {
  * @returns {boolean} - If either a or b is even, return true
  */
 function eitherEven(a, b) {
-    return a % 2 == 0 || b % 2 == 0;
+   return a % 2 === 0 || b % 2 === 0;
 }
 
 module.exports = {

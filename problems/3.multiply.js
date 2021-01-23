@@ -5,7 +5,7 @@
  * @returns {number} - Equal to n multiplied by 2
  */
 function double(n) {
-    return n * 2;
+    return 2 * n;
 }
 
 /**
@@ -38,7 +38,7 @@ function multiplyTwo(a, b) {
  * @returns {number} - The result of a times b times c
  */
 function multiplyThree(a, b, c) {
-  return a * b * c;
+ return a * b * c; 
 }
 
 /**
@@ -49,7 +49,7 @@ function multiplyThree(a, b, c) {
  * @returns {NaN} - Should return NaN (not a number) since this is an invalid operation in Javascript
  */
 function multiplyString(str, n) {
-  return str * n;
+  return str * n
 }
 
 module.exports = {
