@@ -17,7 +17,8 @@
  * @param {number} b - the second number
  * @returns {boolean} - if a and b are both number types, return true
  */
-function bothNumbers() {
+const bothNumbers = (a,b) => {
+  return typeof a === "number" && typeof b === "number"
 
 }
 
@@ -29,7 +30,8 @@ function bothNumbers() {
  * @returns {boolean} - return true if either a or b are a number
  * 
  */
-function eitherNumber() {
+const eitherNumber = (a,b) => {
+  return (typeof a === "number" || typeof b === "number") 
 
 }
 
@@ -40,7 +42,8 @@ function eitherNumber() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are equal then return true, otherwise return false
  */
-function numbersEqual() {
+const numbersEqual = (a,b) => {
+  return a === b
 
 }
 
@@ -51,7 +54,8 @@ function numbersEqual() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are not equal then return true, otherwise return false
  */
-function numbersNotEqual() {
+const numbersNotEqual = (a,b) => {
+  return a !== b
 
 }
 
@@ -63,7 +67,8 @@ function numbersNotEqual() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are both even numbers, return true
  */
-function bothEven() {
+const bothEven = (a,b) => {
+    return a % 2 === 0 && b % 2 === 0 
 
 }
 
@@ -74,7 +79,9 @@ function bothEven() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are both odd numbers, return true
  */
-function bothOdd() {
+const bothOdd = (a,b) => {
+  return a % 2 !== 0 && b % 2 !== 0
+
   
 }
 
@@ -85,7 +92,8 @@ function bothOdd() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If either a or b is even, return true
  */
-function eitherEven() {
+const eitherEven = (a,b) => {
+  return a % 2 === 0 || b % 2 === 0
 
 }
 
