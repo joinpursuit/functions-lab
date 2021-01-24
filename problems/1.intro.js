@@ -19,9 +19,7 @@ const helloName = (name) => console.log(`hello ${name}`)
  * 
  * @returns {string} - the string "hello world"
  */
-const returnHelloWorld = () => {
-  return "hello world" 
-}
+const returnHelloWorld = () => "hello world" 
 
 /**
  * Returns the string "Hello ${name}!"
@@ -30,9 +28,7 @@ const returnHelloWorld = () => {
  * @param {string} name - the name to added to the return string
  * @returns {string} A greeting in the form of "Hello ${name}!"
  */
-function returnHelloName(name) {
-  return `Hello ${name}!`  
-}
+const returnHelloName = (name) => `Hello ${name}!`  
 
 module.exports = {
   helloWorld,

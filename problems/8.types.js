@@ -17,9 +17,8 @@
  * @param {number} b - the second number
  * @returns {boolean} - if a and b are both number types, return true
  */
-function bothNumbers(a, b) {
- return typeof a === 'number' && typeof b === 'number';
-}
+const bothNumbers = (a, b) => typeof a === 'number' && typeof b === 'number';
+
 
 /**
  * Checks to see if either parameter is a number
@@ -29,9 +28,8 @@ function bothNumbers(a, b) {
  * @returns {boolean} - return true if either a or b are a number
  * 
  */
-function eitherNumber(a, b) {
-  return typeof a === 'number' || typeof b === 'number';
-}
+const eitherNumber = (a, b) => typeof a === 'number' || typeof b === 'number';
+
 
 /**
  * Checks to see if both numbers are equal
@@ -40,9 +38,8 @@ function eitherNumber(a, b) {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are equal then return true, otherwise return false
  */
-function numbersEqual(a, b) {
-    return a === b;
-}
+const numbersEqual = (a, b) => a === b;
+
 
 /**
  * Checks to see if both numbers are not equal
@@ -51,9 +48,8 @@ function numbersEqual(a, b) {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are not equal then return true, otherwise return false
  */
-function numbersNotEqual(a, b) {
- return a !== b;   
-}
+const numbersNotEqual = (a, b) => a !== b;   
+
 
 /**
  * Checks to see if both numbers are even
@@ -63,9 +59,8 @@ function numbersNotEqual(a, b) {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are both even numbers, return true
  */
-function bothEven(a, b) {
- return a % 2 === 0 && b % 2 === 0;  
-}
+const bothEven = (a, b) => a % 2 === 0 && b % 2 === 0;  
+
 
 /**
  * Checks to see if both numbers are odd 
@@ -74,9 +69,8 @@ function bothEven(a, b) {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are both odd numbers, return true
  */
-function bothOdd(a, b) {
-  return a % 2 === 1 && b % 2 === 1;
-}
+const bothOdd = (a, b) => a % 2 === 1 && b % 2 === 1;
+
 
 /**
  * Checks to see if either number is even
@@ -85,9 +79,8 @@ function bothOdd(a, b) {
  * @param {number} b - The second number to test
  * @returns {boolean} - If either a or b is even, return true
  */
-function eitherEven(a, b) {
-   return a % 2 === 0 || b % 2 === 0;
-}
+const eitherEven = (a, b) => a % 2 === 0 || b % 2 === 0;
+
 
 module.exports = {
   bothNumbers,
