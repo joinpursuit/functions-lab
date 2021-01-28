@@ -7,6 +7,8 @@
  */
 function rand() {
 
+  return Math.random()
+
 }
 
 /** 
@@ -16,7 +18,11 @@ function rand() {
  */
 function diceRoll() {
 
+  return Math.round((Math.random() * 6) + 1) //REMINDER!!!! BE CONSCIOUS OF CAPITIZATION AND PARENTHESIS WITH MATH!
+
 }
+
+//REMINDER!!!! BE CONSCIOUS OF CAPITIZATION AND PARENTHESIS!
 
 /**
  * Returns a rounded, random number between 0 and n
@@ -24,7 +30,9 @@ function diceRoll() {
  * @param {number} n - A number that serves as the upper limit of random
  * @returns {number} - A random number betweeen 0 and n
  */
-function randRange() {
+function randRange(n) {
+
+  return Math.round(Math.random() * n) 
 
 }
 
@@ -34,10 +42,10 @@ function randRange() {
  * Returns four
  * https://xkcd.com/221/
  * 
- * @returns {number} - the number 4. don't overthink it.
+ * @returns {number} - the number 4. don't overthink it. (we are jus returning 4)
  */
 function totallyFairDiceRoll() {
-
+  return 4
 }
 
 module.exports = {
