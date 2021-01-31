@@ -20,17 +20,17 @@ let helloWorld;
  * @returns undefined
  */
 function helloName() {
-  let name = 'Myra'
+  let name = 'brandy';
   console.log('hello ' + name)
 }
-helloName()
+
 /**
  * Returns the string "hello world"
  * 
  * @returns {string} - the string "hello world"
  */
 function returnHelloWorld() {
-return 'Hello World'
+return 'hello world'
 }
 let greet = returnHelloWorld()
 console.log(greet)

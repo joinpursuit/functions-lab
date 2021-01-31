@@ -17,9 +17,19 @@
  * @param {number} b - the second number
  * @returns {boolean} - if a and b are both number types, return true
  */
-function bothNumbers() {
+
+function bothNumbers(a, b) {
+
+if (typeof a ==  'number' && typeof b == 'number') {
+
+  return true;
+}
+else { 
+  return false;
+ }
 
 }
+  console.log(bothNumbers(5,10))
 
 /**
  * Checks to see if either parameter is a number
@@ -29,9 +39,20 @@ function bothNumbers() {
  * @returns {boolean} - return true if either a or b are a number
  * 
  */
-function eitherNumber() {
+function eitherNumber(a,b) {
 
-}
+  if (typeof a == 'number' || typeof b ==  'number') {
+
+    return true;
+  }
+  else { 
+    return false;
+   }
+  
+  }
+    console.log(eitherNumber(5,"4"))
+
+
 
 /**
  * Checks to see if both numbers are equal
@@ -40,9 +61,16 @@ function eitherNumber() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are equal then return true, otherwise return false
  */
-function numbersEqual() {
+function numbersEqual(a,b) {
 
+  if (a == b){
+return true;
+  }
+  else {
+    return false;
+  }
 }
+console.log(numbersEqual(5,6))
 
 /**
  * Checks to see if both numbers are not equal
@@ -51,9 +79,15 @@ function numbersEqual() {
  * @param {number} b - The second number to test
  * @returns {boolean} - If a and b are not equal then return true, otherwise return false
  */
-function numbersNotEqual() {
-
+function numbersNotEqual(a,b) {
+  if (a !== b){
+    return true;
+      }
+      else {
+        return false;
+      }
 }
+console.log(numbersNotEqual(5,6))
 
 /**
  * Checks to see if both numbers are even

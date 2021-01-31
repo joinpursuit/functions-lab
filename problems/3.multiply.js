@@ -4,24 +4,22 @@
  * @param {number} n - a number to be doubled
  * @returns {number} - Equal to n multiplied by 2
  */
-function double() {
-let b = 2
-let n = 6 * 2
+function double(n) {
+n *=2;
 return n
 }
-console.log(double())
+console.log(double(5))
 /**
  * Squares whatever number is passed in
  * 
  * @param {number} n - a number to be squared
  * @returns {number} - Equal to n times itself
  */
-function square() {
-let a = 2 
-let n = 9 ** a
+function square(n) {
+return n*n;
 return n
 }
-console.log(square())
+console.log(square(10))
 /**
  * Multiplies two numbers that are passed in
  * 

@@ -6,18 +6,27 @@
  * @returns {number} Equal to either 5 or n
  */
 function defaultNum() {
+  return 5;
 
 }
-
+console.log(defaultNum())
 /**
  * Returns whatever string is passed in, or "hello world" if none is passed in
  * 
  * @param {string} ["hello world"] str - The string to be returned
  * @returns {string} - Equal to str, or "hello world"
  */
+
+defaultStr()
+
 function defaultStr() {
 
+return 'hello world'
+
 }
+let str = 'bed'
+console.log (defaultStr(str));
+
 
 module.exports = {
   defaultNum,
