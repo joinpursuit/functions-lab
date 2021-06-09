@@ -5,9 +5,10 @@
  * @param {number} b - The second number, to be divided by
  * @returns {number} - Equal to a divided by b
  */
-function divideTwo() {
-
+function divideTwo(a,b) {
+  return a / b
 }
+console.log(divideTwo(4,2))
 
 /**
  * Divides two numbers and returns the rounded result
