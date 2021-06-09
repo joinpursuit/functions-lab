@@ -9,8 +9,9 @@
  * @param {number} b - The second number
  * @returns {number} - A whole number equal to the average of a and b
  */
-function average() {
-
+function average(a,b) {
+  const arr = [a, b];
+  return (a + b )/arr.length-1
 }
 
 /**
