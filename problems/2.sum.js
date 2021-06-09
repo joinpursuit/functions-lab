@@ -20,7 +20,7 @@ function sum(a,b) {
 function sumThree(a,b,c) {
   return a + b + c;
 }
-sumThree(1,2,3)
+
 /**
  * Subtracts two numbers
  * 
@@ -28,8 +28,8 @@ sumThree(1,2,3)
  * @param {number} b - the second number which is subtracted from the first
  * @returns {number} - Equal to a minus b
  */
-function subtract() {
-
+function subtract(a,b) {
+  return a - b
 }
 
 
